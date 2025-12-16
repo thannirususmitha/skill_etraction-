@@ -1,0 +1,30 @@
+{"skill": "Cybersecurity", "pattern": "\\b(cybersecurity|cyber[\\s-]?security)\\b", "category": "Cybersecurity", "subcategory": "Core", "confidence": 0.95, "aliases": []}
+{"skill": "Information Security", "pattern": "\\b(information\\s*security|infosec)\\b", "category": "Cybersecurity", "subcategory": "Core", "confidence": 0.90, "aliases": ["InfoSec"]}
+{"skill": "Network Security", "pattern": "\\bnetwork\\s*security\\b", "category": "Cybersecurity", "subcategory": "Domain", "confidence": 0.90, "aliases": []}
+{"skill": "Application Security", "pattern": "\\b(application\\s*security|appsec)\\b", "category": "Cybersecurity", "subcategory": "Domain", "confidence": 0.90, "aliases": ["AppSec"]}
+{"skill": "Cloud Security", "pattern": "\\bcloud\\s*security\\b", "category": "Cybersecurity", "subcategory": "Domain", "confidence": 0.90, "aliases": []}
+{"skill": "Encryption", "pattern": "\\bencryption\\b", "category": "Cybersecurity", "subcategory": "Technique", "confidence": 0.90, "aliases": []}
+{"skill": "Cryptography", "pattern": "\\bcryptograph(y|ic)\\b", "category": "Cybersecurity", "subcategory": "Technique", "confidence": 0.90, "aliases": []}
+{"skill": "Authentication", "pattern": "\\bauthentication\\b", "category": "Cybersecurity", "subcategory": "Identity", "confidence": 0.85, "aliases": []}
+{"skill": "Authorization", "pattern": "\\bauthorization\\b", "category": "Cybersecurity", "subcategory": "Identity", "confidence": 0.85, "aliases": []}
+{"skill": "OAuth", "pattern": "\\boauth\\b", "category": "Cybersecurity", "subcategory": "Identity", "confidence": 0.90, "aliases": []}
+{"skill": "SAML", "pattern": "\\bsaml\\b", "category": "Cybersecurity", "subcategory": "Identity", "confidence": 0.90, "aliases": []}
+{"skill": "SSO", "pattern": "\\bsso\\b", "category": "Cybersecurity", "subcategory": "Identity", "confidence": 0.90, "aliases": ["Single Sign-On"]}
+{"skill": "IAM", "pattern": "\\biam\\b", "category": "Cybersecurity", "subcategory": "Identity", "confidence": 0.85, "aliases": []}
+{"skill": "Penetration Testing", "pattern": "\\b(penetration\\s*testing|pen\\s*test)\\b", "category": "Cybersecurity", "subcategory": "Testing", "confidence": 0.95, "aliases": ["Pen Testing"]}
+{"skill": "Vulnerability Assessment", "pattern": "\\bvulnerability\\b", "category": "Cybersecurity", "subcategory": "Testing", "confidence": 0.90, "aliases": []}
+{"skill": "Threat Detection", "pattern": "\\bthreat\\s*detection\\b", "category": "Cybersecurity", "subcategory": "Operations", "confidence": 0.90, "aliases": []}
+{"skill": "Incident Response", "pattern": "\\bincident\\s*response\\b", "category": "Cybersecurity", "subcategory": "Operations", "confidence": 0.90, "aliases": []}
+{"skill": "SIEM", "pattern": "\\bsiem\\b", "category": "Cybersecurity", "subcategory": "Tools", "confidence": 0.95, "aliases": []}
+{"skill": "SOC", "pattern": "\\bsoc\\b", "category": "Cybersecurity", "subcategory": "Operations", "confidence": 0.80, "aliases": []}
+{"skill": "GDPR", "pattern": "\\bgdpr\\b", "category": "Cybersecurity", "subcategory": "Compliance", "confidence": 0.95, "aliases": []}
+{"skill": "HIPAA", "pattern": "\\bhipaa\\b", "category": "Cybersecurity", "subcategory": "Compliance", "confidence": 0.95, "aliases": []}
+{"skill": "PCI-DSS", "pattern": "\\bpci[\\s-]?dss\\b", "category": "Cybersecurity", "subcategory": "Compliance", "confidence": 0.90, "aliases": []}
+{"skill": "SOC 2", "pattern": "\\bsoc\\s*2\\b", "category": "Cybersecurity", "subcategory": "Compliance", "confidence": 0.90, "aliases": []}
+{"skill": "ISO 27001", "pattern": "\\biso\\s*27001\\b", "category": "Cybersecurity", "subcategory": "Compliance", "confidence": 0.90, "aliases": []}
+{"skill": "OWASP", "pattern": "\\bowasp\\b", "category": "Cybersecurity", "subcategory": "Framework", "confidence": 0.95, "aliases": []}
+{"skill": "DevSecOps", "pattern": "\\bdevsecops\\b", "category": "Cybersecurity", "subcategory": "Practice", "confidence": 0.95, "aliases": []}
+{"skill": "Secure Coding", "pattern": "\\bsecure\\s*coding\\b", "category": "Cybersecurity", "subcategory": "Practice", "confidence": 0.90, "aliases": []}
+{"skill": "Zero Trust", "pattern": "\\bzero\\s*trust\\b", "category": "Cybersecurity", "subcategory": "Architecture", "confidence": 0.90, "aliases": []}
+{"skill": "Firewall", "pattern": "\\bfirewall\\b", "category": "Cybersecurity", "subcategory": "Network", "confidence": 0.85, "aliases": []}
+{"skill": "VPN", "pattern": "\\bvpn\\b", "category": "Cybersecurity", "subcategory": "Network", "confidence": 0.85, "aliases": []}

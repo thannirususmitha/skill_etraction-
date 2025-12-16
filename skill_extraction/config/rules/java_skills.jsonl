@@ -1,0 +1,30 @@
+{"skill": "Java", "pattern": "\\bjava\\b", "category": "Java", "subcategory": "Core Language", "confidence": 0.95, "aliases": ["Java 8", "Java 11", "Java 17"]}
+{"skill": "Spring Framework", "pattern": "\\bspring\\b", "category": "Java", "subcategory": "Framework", "confidence": 0.90, "aliases": []}
+{"skill": "Spring Boot", "pattern": "\\bspring\\s*boot\\b", "category": "Java", "subcategory": "Framework", "confidence": 0.95, "aliases": ["SpringBoot"]}
+{"skill": "Spring MVC", "pattern": "\\bspring\\s*mvc\\b", "category": "Java", "subcategory": "Framework", "confidence": 0.90, "aliases": []}
+{"skill": "Spring Security", "pattern": "\\bspring\\s*security\\b", "category": "Java", "subcategory": "Security", "confidence": 0.90, "aliases": []}
+{"skill": "Spring Cloud", "pattern": "\\bspring\\s*cloud\\b", "category": "Java", "subcategory": "Microservices", "confidence": 0.90, "aliases": []}
+{"skill": "Hibernate", "pattern": "\\bhibernate\\b", "category": "Java", "subcategory": "ORM", "confidence": 0.95, "aliases": []}
+{"skill": "JPA", "pattern": "\\bjpa\\b", "category": "Java", "subcategory": "ORM", "confidence": 0.90, "aliases": ["Java Persistence API"]}
+{"skill": "JDBC", "pattern": "\\bjdbc\\b", "category": "Java", "subcategory": "Database Connectivity", "confidence": 0.90, "aliases": []}
+{"skill": "Maven", "pattern": "\\bmaven\\b", "category": "Java", "subcategory": "Build Tool", "confidence": 0.95, "aliases": []}
+{"skill": "Gradle", "pattern": "\\bgradle\\b", "category": "Java", "subcategory": "Build Tool", "confidence": 0.95, "aliases": []}
+{"skill": "JUnit", "pattern": "\\bjunit\\b", "category": "Java", "subcategory": "Testing", "confidence": 0.95, "aliases": ["JUnit 5"]}
+{"skill": "Mockito", "pattern": "\\bmockito\\b", "category": "Java", "subcategory": "Testing", "confidence": 0.95, "aliases": []}
+{"skill": "TestNG", "pattern": "\\btestng\\b", "category": "Java", "subcategory": "Testing", "confidence": 0.90, "aliases": []}
+{"skill": "Tomcat", "pattern": "\\btomcat\\b", "category": "Java", "subcategory": "Application Server", "confidence": 0.90, "aliases": ["Apache Tomcat"]}
+{"skill": "JBoss", "pattern": "\\bjboss\\b", "category": "Java", "subcategory": "Application Server", "confidence": 0.90, "aliases": []}
+{"skill": "WebLogic", "pattern": "\\bweblogic\\b", "category": "Java", "subcategory": "Application Server", "confidence": 0.90, "aliases": []}
+{"skill": "Apache Kafka", "pattern": "\\bkafka\\b", "category": "Java", "subcategory": "Messaging", "confidence": 0.95, "aliases": ["Kafka"]}
+{"skill": "RabbitMQ", "pattern": "\\brabbitmq\\b", "category": "Java", "subcategory": "Messaging", "confidence": 0.95, "aliases": []}
+{"skill": "Microservices", "pattern": "\\bmicroservices?\\b", "category": "Java", "subcategory": "Architecture", "confidence": 0.90, "aliases": []}
+{"skill": "RESTful API", "pattern": "\\b(restful|rest\\s*api)\\b", "category": "Java", "subcategory": "API", "confidence": 0.90, "aliases": []}
+{"skill": "SOAP", "pattern": "\\bsoap\\b", "category": "Java", "subcategory": "API", "confidence": 0.85, "aliases": []}
+{"skill": "Java EE", "pattern": "\\b(java\\s*ee|j2ee|jakarta)\\b", "category": "Java", "subcategory": "Enterprise", "confidence": 0.90, "aliases": ["J2EE", "Jakarta EE"]}
+{"skill": "Lombok", "pattern": "\\blombok\\b", "category": "Java", "subcategory": "Library", "confidence": 0.90, "aliases": []}
+{"skill": "Log4j", "pattern": "\\blog4j\\b", "category": "Java", "subcategory": "Logging", "confidence": 0.90, "aliases": []}
+{"skill": "Quarkus", "pattern": "\\bquarkus\\b", "category": "Java", "subcategory": "Framework", "confidence": 0.90, "aliases": []}
+{"skill": "Micronaut", "pattern": "\\bmicronaut\\b", "category": "Java", "subcategory": "Framework", "confidence": 0.90, "aliases": []}
+{"skill": "JVM", "pattern": "\\bjvm\\b", "category": "Java", "subcategory": "Runtime", "confidence": 0.90, "aliases": ["Java Virtual Machine"]}
+{"skill": "Multithreading", "pattern": "\\b(multithreading|multi-threading)\\b", "category": "Java", "subcategory": "Concurrency", "confidence": 0.90, "aliases": []}
+{"skill": "Design Patterns", "pattern": "\\bdesign\\s*patterns?\\b", "category": "Java", "subcategory": "Paradigm", "confidence": 0.85, "aliases": []}

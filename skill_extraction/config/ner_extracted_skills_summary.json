@@ -1,0 +1,141 @@
+{
+  "extraction_date": "2025-12-16T12:53:01.305527",
+  "input_file": "/mnt/user-data/uploads/cleaned_job_descriptions.xlsx",
+  "ner_stats": {
+    "total_rules": 217,
+    "labels": [
+      "DEVOPS",
+      "WEB_DEV",
+      "CLOUD",
+      "TESTING",
+      "MOBILE",
+      "MACHINE_LEARNING",
+      "SECURITY",
+      "DATABASE",
+      "DATA_ENG",
+      "PYTHON",
+      "DATA_SCIENCE",
+      "SOFT_SKILL",
+      "JAVA"
+    ],
+    "rules_per_label": {
+      "PYTHON": 30,
+      "JAVA": 16,
+      "DATA_SCIENCE": 19,
+      "MACHINE_LEARNING": 24,
+      "CLOUD": 17,
+      "DEVOPS": 18,
+      "WEB_DEV": 20,
+      "DATABASE": 15,
+      "DATA_ENG": 15,
+      "MOBILE": 8,
+      "SECURITY": 10,
+      "SOFT_SKILL": 14,
+      "TESTING": 11
+    }
+  },
+  "summary": {
+    "total_documents": 7670,
+    "total_entities_extracted": 119314,
+    "unique_skills_found": 210,
+    "total_skill_mentions": 119314,
+    "avg_entities_per_document": 15.55593220338983,
+    "top_20_skills": [
+      [
+        "Artificial Intelligence",
+        6540
+      ],
+      [
+        "Python",
+        4594
+      ],
+      [
+        "Requirements Gathering",
+        4491
+      ],
+      [
+        "SQL",
+        3924
+      ],
+      [
+        "Java",
+        3433
+      ],
+      [
+        "Machine Learning",
+        3320
+      ],
+      [
+        "AWS",
+        3180
+      ],
+      [
+        "Statistics",
+        3167
+      ],
+      [
+        "Communication",
+        3076
+      ],
+      [
+        "Software Testing",
+        2932
+      ],
+      [
+        "Data Science",
+        2910
+      ],
+      [
+        "Android",
+        2445
+      ],
+      [
+        "Innovation",
+        2210
+      ],
+      [
+        "Azure",
+        2201
+      ],
+      [
+        "Cross-functional",
+        2095
+      ],
+      [
+        "CI/CD",
+        2038
+      ],
+      [
+        "Analytical Skills",
+        2026
+      ],
+      [
+        "React",
+        1941
+      ],
+      [
+        "Agile",
+        1893
+      ],
+      [
+        "Test Automation",
+        1754
+      ]
+    ],
+    "entities_by_label": {
+      "SOFT_SKILL": 22435,
+      "MACHINE_LEARNING": 13904,
+      "DATA_SCIENCE": 13511,
+      "PYTHON": 8351,
+      "DATABASE": 8598,
+      "TESTING": 5834,
+      "WEB_DEV": 9789,
+      "JAVA": 8229,
+      "DATA_ENG": 5397,
+      "CLOUD": 9339,
+      "DEVOPS": 8270,
+      "SECURITY": 806,
+      "MOBILE": 4851
+    }
+  }
+}

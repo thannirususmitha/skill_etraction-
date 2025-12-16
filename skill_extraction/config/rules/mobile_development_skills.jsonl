@@ -1,0 +1,24 @@
+{"skill": "iOS Development", "pattern": "\\bios\\b", "category": "Mobile Development", "subcategory": "Platform", "confidence": 0.85, "aliases": []}
+{"skill": "Android Development", "pattern": "\\bandroid\\b", "category": "Mobile Development", "subcategory": "Platform", "confidence": 0.90, "aliases": []}
+{"skill": "Swift", "pattern": "\\bswift\\b", "category": "Mobile Development", "subcategory": "Language", "confidence": 0.90, "aliases": []}
+{"skill": "Objective-C", "pattern": "\\bobjective[\\s-]?c\\b", "category": "Mobile Development", "subcategory": "Language", "confidence": 0.90, "aliases": []}
+{"skill": "Kotlin", "pattern": "\\bkotlin\\b", "category": "Mobile Development", "subcategory": "Language", "confidence": 0.95, "aliases": []}
+{"skill": "Dart", "pattern": "\\bdart\\b", "category": "Mobile Development", "subcategory": "Language", "confidence": 0.85, "aliases": []}
+{"skill": "Flutter", "pattern": "\\bflutter\\b", "category": "Mobile Development", "subcategory": "Cross-Platform", "confidence": 0.95, "aliases": []}
+{"skill": "React Native", "pattern": "\\breact\\s*native\\b", "category": "Mobile Development", "subcategory": "Cross-Platform", "confidence": 0.95, "aliases": []}
+{"skill": "Xamarin", "pattern": "\\bxamarin\\b", "category": "Mobile Development", "subcategory": "Cross-Platform", "confidence": 0.90, "aliases": []}
+{"skill": "Ionic", "pattern": "\\bionic\\b", "category": "Mobile Development", "subcategory": "Cross-Platform", "confidence": 0.85, "aliases": []}
+{"skill": "Expo", "pattern": "\\bexpo\\b", "category": "Mobile Development", "subcategory": "Cross-Platform", "confidence": 0.85, "aliases": []}
+{"skill": "SwiftUI", "pattern": "\\bswiftui\\b", "category": "Mobile Development", "subcategory": "iOS Framework", "confidence": 0.95, "aliases": []}
+{"skill": "UIKit", "pattern": "\\buikit\\b", "category": "Mobile Development", "subcategory": "iOS Framework", "confidence": 0.90, "aliases": []}
+{"skill": "Core Data", "pattern": "\\bcore\\s*data\\b", "category": "Mobile Development", "subcategory": "iOS Framework", "confidence": 0.85, "aliases": []}
+{"skill": "Jetpack Compose", "pattern": "\\b(jetpack\\s*)?compose\\b", "category": "Mobile Development", "subcategory": "Android Framework", "confidence": 0.90, "aliases": []}
+{"skill": "Android Jetpack", "pattern": "\\bjetpack\\b", "category": "Mobile Development", "subcategory": "Android Framework", "confidence": 0.90, "aliases": []}
+{"skill": "Xcode", "pattern": "\\bxcode\\b", "category": "Mobile Development", "subcategory": "IDE", "confidence": 0.90, "aliases": []}
+{"skill": "Android Studio", "pattern": "\\bandroid\\s*studio\\b", "category": "Mobile Development", "subcategory": "IDE", "confidence": 0.95, "aliases": []}
+{"skill": "Firebase", "pattern": "\\bfirebase\\b", "category": "Mobile Development", "subcategory": "Backend", "confidence": 0.90, "aliases": []}
+{"skill": "Push Notifications", "pattern": "\\bpush\\s*notification\\b", "category": "Mobile Development", "subcategory": "Feature", "confidence": 0.85, "aliases": []}
+{"skill": "App Store", "pattern": "\\bapp\\s*store\\b", "category": "Mobile Development", "subcategory": "Distribution", "confidence": 0.80, "aliases": []}
+{"skill": "Google Play", "pattern": "\\bgoogle\\s*play\\b", "category": "Mobile Development", "subcategory": "Distribution", "confidence": 0.85, "aliases": []}
+{"skill": "Mobile UI/UX", "pattern": "\\bmobile\\s*(ui|ux)\\b", "category": "Mobile Development", "subcategory": "Design", "confidence": 0.85, "aliases": []}
+{"skill": "Material Design", "pattern": "\\bmaterial\\s*design\\b", "category": "Mobile Development", "subcategory": "Design", "confidence": 0.85, "aliases": []}

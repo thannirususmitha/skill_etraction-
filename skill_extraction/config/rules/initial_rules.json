@@ -1,0 +1,3733 @@
+{
+  "version": "1.0.0",
+  "created_at": "2025-12-16T10:19:35.750028",
+  "updated_at": "2025-12-16T10:19:35.750040",
+  "description": "Initial skill extraction rules for job description analysis",
+  "total_rules": 441,
+  "categories": [
+    "Cloud Platforms",
+    "Cybersecurity",
+    "Data Engineering",
+    "Data Science",
+    "Database",
+    "DevOps",
+    "Java",
+    "Machine Learning",
+    "Mobile Development",
+    "Python",
+    "Soft Skills",
+    "Testing & QA",
+    "Web Development"
+  ],
+  "rules": [
+    {
+      "skill": "AWS",
+      "pattern": "\\b(aws|amazon\\s*web\\s*services)\\b",
+      "category": "Cloud Platforms",
+      "subcategory": "Cloud Provider",
+      "confidence": 0.95,
+      "aliases": [
+        "Amazon Web Services"
+      ]
+    },
+    {
+      "skill": "Azure",
+      "pattern": "\\b(azure|microsoft\\s*azure)\\b",
+      "category": "Cloud Platforms",
+      "subcategory": "Cloud Provider",
+      "confidence": 0.95,
+      "aliases": [
+        "Microsoft Azure"
+      ]
+    },
+    {
+      "skill": "GCP",
+      "pattern": "\\b(gcp|google\\s*cloud)\\b",
+      "category": "Cloud Platforms",
+      "subcategory": "Cloud Provider",
+      "confidence": 0.95,
+      "aliases": [
+        "Google Cloud Platform"
+      ]
+    },
+    {
+      "skill": "EC2",
+      "pattern": "\\bec2\\b",
+      "category": "Cloud Platforms",
+      "subcategory": "AWS Compute",
+      "confidence": 0.95,
+      "aliases": [
+        "Amazon EC2"
+      ]
+    },
+    {
+      "skill": "S3",
+      "pattern": "\\bs3\\b",
+      "category": "Cloud Platforms",
+      "subcategory": "AWS Storage",
+      "confidence": 0.95,
+      "aliases": [
+        "Amazon S3"
+      ]
+    },
+    {
+      "skill": "Lambda",
+      "pattern": "\\blambda\\b",
+      "category": "Cloud Platforms",
+      "subcategory": "AWS Serverless",
+      "confidence": 0.85,
+      "aliases": [
+        "AWS Lambda"
+      ]
+    },
+    {
+      "skill": "ECS",
+      "pattern": "\\becs\\b",
+      "category": "Cloud Platforms",
+      "subcategory": "AWS Container",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "EKS",
+      "pattern": "\\beks\\b",
+      "category": "Cloud Platforms",
+      "subcategory": "AWS Container",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "RDS",
+      "pattern": "\\brds\\b",
+      "category": "Cloud Platforms",
+      "subcategory": "AWS Database",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "DynamoDB",
+      "pattern": "\\bdynamodb\\b",
+      "category": "Cloud Platforms",
+      "subcategory": "AWS Database",
+      "confidence": 0.95,
+      "aliases": []
+    },
+    {
+      "skill": "CloudFormation",
+      "pattern": "\\bcloudformation\\b",
+      "category": "Cloud Platforms",
+      "subcategory": "AWS IaC",
+      "confidence": 0.95,
+      "aliases": []
+    },
+    {
+      "skill": "AWS CDK",
+      "pattern": "\\bcdk\\b",
+      "category": "Cloud Platforms",
+      "subcategory": "AWS IaC",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "SQS",
+      "pattern": "\\bsqs\\b",
+      "category": "Cloud Platforms",
+      "subcategory": "AWS Messaging",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "SNS",
+      "pattern": "\\bsns\\b",
+      "category": "Cloud Platforms",
+      "subcategory": "AWS Messaging",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "Kinesis",
+      "pattern": "\\bkinesis\\b",
+      "category": "Cloud Platforms",
+      "subcategory": "AWS Streaming",
+      "confidence": 0.95,
+      "aliases": []
+    },
+    {
+      "skill": "CloudWatch",
+      "pattern": "\\bcloudwatch\\b",
+      "category": "Cloud Platforms",
+      "subcategory": "AWS Monitoring",
+      "confidence": 0.95,
+      "aliases": []
+    },
+    {
+      "skill": "IAM",
+      "pattern": "\\biam\\b",
+      "category": "Cloud Platforms",
+      "subcategory": "AWS Security",
+      "confidence": 0.85,
+      "aliases": []
+    },
+    {
+      "skill": "VPC",
+      "pattern": "\\bvpc\\b",
+      "category": "Cloud Platforms",
+      "subcategory": "AWS Networking",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "API Gateway",
+      "pattern": "\\bapi\\s*gateway\\b",
+      "category": "Cloud Platforms",
+      "subcategory": "AWS API",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "SageMaker",
+      "pattern": "\\bsagemaker\\b",
+      "category": "Cloud Platforms",
+      "subcategory": "AWS ML",
+      "confidence": 0.95,
+      "aliases": []
+    },
+    {
+      "skill": "AWS Glue",
+      "pattern": "\\bglue\\b",
+      "category": "Cloud Platforms",
+      "subcategory": "AWS Data",
+      "confidence": 0.85,
+      "aliases": []
+    },
+    {
+      "skill": "Athena",
+      "pattern": "\\bathena\\b",
+      "category": "Cloud Platforms",
+      "subcategory": "AWS Analytics",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "Redshift",
+      "pattern": "\\bredshift\\b",
+      "category": "Cloud Platforms",
+      "subcategory": "AWS Data Warehouse",
+      "confidence": 0.95,
+      "aliases": []
+    },
+    {
+      "skill": "EMR",
+      "pattern": "\\bemr\\b",
+      "category": "Cloud Platforms",
+      "subcategory": "AWS Big Data",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "Azure DevOps",
+      "pattern": "\\bazure\\s*devops\\b",
+      "category": "Cloud Platforms",
+      "subcategory": "Azure DevOps",
+      "confidence": 0.95,
+      "aliases": []
+    },
+    {
+      "skill": "Azure Functions",
+      "pattern": "\\bazure\\s*functions\\b",
+      "category": "Cloud Platforms",
+      "subcategory": "Azure Serverless",
+      "confidence": 0.95,
+      "aliases": []
+    },
+    {
+      "skill": "AKS",
+      "pattern": "\\baks\\b",
+      "category": "Cloud Platforms",
+      "subcategory": "Azure Container",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "Azure Data Factory",
+      "pattern": "\\bdata\\s*factory\\b",
+      "category": "Cloud Platforms",
+      "subcategory": "Azure Data",
+      "confidence": 0.9,
+      "aliases": [
+        "ADF"
+      ]
+    },
+    {
+      "skill": "Azure Synapse",
+      "pattern": "\\bsynapse\\b",
+      "category": "Cloud Platforms",
+      "subcategory": "Azure Analytics",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "BigQuery",
+      "pattern": "\\bbigquery\\b",
+      "category": "Cloud Platforms",
+      "subcategory": "GCP Analytics",
+      "confidence": 0.95,
+      "aliases": []
+    },
+    {
+      "skill": "Cloud Functions",
+      "pattern": "\\bcloud\\s*functions\\b",
+      "category": "Cloud Platforms",
+      "subcategory": "GCP Serverless",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "GKE",
+      "pattern": "\\bgke\\b",
+      "category": "Cloud Platforms",
+      "subcategory": "GCP Container",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "Vertex AI",
+      "pattern": "\\bvertex\\s*ai\\b",
+      "category": "Cloud Platforms",
+      "subcategory": "GCP ML",
+      "confidence": 0.95,
+      "aliases": []
+    },
+    {
+      "skill": "Dataflow",
+      "pattern": "\\bdataflow\\b",
+      "category": "Cloud Platforms",
+      "subcategory": "GCP Data",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "Serverless",
+      "pattern": "\\bserverless\\b",
+      "category": "Cloud Platforms",
+      "subcategory": "Architecture",
+      "confidence": 0.85,
+      "aliases": []
+    },
+    {
+      "skill": "Cloud Native",
+      "pattern": "\\bcloud[\\s-]?native\\b",
+      "category": "Cloud Platforms",
+      "subcategory": "Architecture",
+      "confidence": 0.85,
+      "aliases": []
+    },
+    {
+      "skill": "Cybersecurity",
+      "pattern": "\\b(cybersecurity|cyber[\\s-]?security)\\b",
+      "category": "Cybersecurity",
+      "subcategory": "Core",
+      "confidence": 0.95,
+      "aliases": []
+    },
+    {
+      "skill": "Information Security",
+      "pattern": "\\b(information\\s*security|infosec)\\b",
+      "category": "Cybersecurity",
+      "subcategory": "Core",
+      "confidence": 0.9,
+      "aliases": [
+        "InfoSec"
+      ]
+    },
+    {
+      "skill": "Network Security",
+      "pattern": "\\bnetwork\\s*security\\b",
+      "category": "Cybersecurity",
+      "subcategory": "Domain",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "Application Security",
+      "pattern": "\\b(application\\s*security|appsec)\\b",
+      "category": "Cybersecurity",
+      "subcategory": "Domain",
+      "confidence": 0.9,
+      "aliases": [
+        "AppSec"
+      ]
+    },
+    {
+      "skill": "Cloud Security",
+      "pattern": "\\bcloud\\s*security\\b",
+      "category": "Cybersecurity",
+      "subcategory": "Domain",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "Encryption",
+      "pattern": "\\bencryption\\b",
+      "category": "Cybersecurity",
+      "subcategory": "Technique",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "Cryptography",
+      "pattern": "\\bcryptograph(y|ic)\\b",
+      "category": "Cybersecurity",
+      "subcategory": "Technique",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "Authentication",
+      "pattern": "\\bauthentication\\b",
+      "category": "Cybersecurity",
+      "subcategory": "Identity",
+      "confidence": 0.85,
+      "aliases": []
+    },
+    {
+      "skill": "Authorization",
+      "pattern": "\\bauthorization\\b",
+      "category": "Cybersecurity",
+      "subcategory": "Identity",
+      "confidence": 0.85,
+      "aliases": []
+    },
+    {
+      "skill": "OAuth",
+      "pattern": "\\boauth\\b",
+      "category": "Cybersecurity",
+      "subcategory": "Identity",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "SAML",
+      "pattern": "\\bsaml\\b",
+      "category": "Cybersecurity",
+      "subcategory": "Identity",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "SSO",
+      "pattern": "\\bsso\\b",
+      "category": "Cybersecurity",
+      "subcategory": "Identity",
+      "confidence": 0.9,
+      "aliases": [
+        "Single Sign-On"
+      ]
+    },
+    {
+      "skill": "IAM",
+      "pattern": "\\biam\\b",
+      "category": "Cybersecurity",
+      "subcategory": "Identity",
+      "confidence": 0.85,
+      "aliases": []
+    },
+    {
+      "skill": "Penetration Testing",
+      "pattern": "\\b(penetration\\s*testing|pen\\s*test)\\b",
+      "category": "Cybersecurity",
+      "subcategory": "Testing",
+      "confidence": 0.95,
+      "aliases": [
+        "Pen Testing"
+      ]
+    },
+    {
+      "skill": "Vulnerability Assessment",
+      "pattern": "\\bvulnerability\\b",
+      "category": "Cybersecurity",
+      "subcategory": "Testing",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "Threat Detection",
+      "pattern": "\\bthreat\\s*detection\\b",
+      "category": "Cybersecurity",
+      "subcategory": "Operations",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "Incident Response",
+      "pattern": "\\bincident\\s*response\\b",
+      "category": "Cybersecurity",
+      "subcategory": "Operations",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "SIEM",
+      "pattern": "\\bsiem\\b",
+      "category": "Cybersecurity",
+      "subcategory": "Tools",
+      "confidence": 0.95,
+      "aliases": []
+    },
+    {
+      "skill": "SOC",
+      "pattern": "\\bsoc\\b",
+      "category": "Cybersecurity",
+      "subcategory": "Operations",
+      "confidence": 0.8,
+      "aliases": []
+    },
+    {
+      "skill": "GDPR",
+      "pattern": "\\bgdpr\\b",
+      "category": "Cybersecurity",
+      "subcategory": "Compliance",
+      "confidence": 0.95,
+      "aliases": []
+    },
+    {
+      "skill": "HIPAA",
+      "pattern": "\\bhipaa\\b",
+      "category": "Cybersecurity",
+      "subcategory": "Compliance",
+      "confidence": 0.95,
+      "aliases": []
+    },
+    {
+      "skill": "PCI-DSS",
+      "pattern": "\\bpci[\\s-]?dss\\b",
+      "category": "Cybersecurity",
+      "subcategory": "Compliance",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "SOC 2",
+      "pattern": "\\bsoc\\s*2\\b",
+      "category": "Cybersecurity",
+      "subcategory": "Compliance",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "ISO 27001",
+      "pattern": "\\biso\\s*27001\\b",
+      "category": "Cybersecurity",
+      "subcategory": "Compliance",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "OWASP",
+      "pattern": "\\bowasp\\b",
+      "category": "Cybersecurity",
+      "subcategory": "Framework",
+      "confidence": 0.95,
+      "aliases": []
+    },
+    {
+      "skill": "DevSecOps",
+      "pattern": "\\bdevsecops\\b",
+      "category": "Cybersecurity",
+      "subcategory": "Practice",
+      "confidence": 0.95,
+      "aliases": []
+    },
+    {
+      "skill": "Secure Coding",
+      "pattern": "\\bsecure\\s*coding\\b",
+      "category": "Cybersecurity",
+      "subcategory": "Practice",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "Zero Trust",
+      "pattern": "\\bzero\\s*trust\\b",
+      "category": "Cybersecurity",
+      "subcategory": "Architecture",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "Firewall",
+      "pattern": "\\bfirewall\\b",
+      "category": "Cybersecurity",
+      "subcategory": "Network",
+      "confidence": 0.85,
+      "aliases": []
+    },
+    {
+      "skill": "VPN",
+      "pattern": "\\bvpn\\b",
+      "category": "Cybersecurity",
+      "subcategory": "Network",
+      "confidence": 0.85,
+      "aliases": []
+    },
+    {
+      "skill": "Data Engineering",
+      "pattern": "\\bdata\\s*engineering\\b",
+      "category": "Data Engineering",
+      "subcategory": "Core",
+      "confidence": 0.95,
+      "aliases": [
+        "Data Engineer"
+      ]
+    },
+    {
+      "skill": "Data Pipeline",
+      "pattern": "\\bdata\\s*pipeline\\b",
+      "category": "Data Engineering",
+      "subcategory": "Architecture",
+      "confidence": 0.95,
+      "aliases": []
+    },
+    {
+      "skill": "Apache Spark",
+      "pattern": "\\bspark\\b",
+      "category": "Data Engineering",
+      "subcategory": "Processing",
+      "confidence": 0.95,
+      "aliases": [
+        "Spark"
+      ]
+    },
+    {
+      "skill": "PySpark",
+      "pattern": "\\bpyspark\\b",
+      "category": "Data Engineering",
+      "subcategory": "Processing",
+      "confidence": 0.95,
+      "aliases": []
+    },
+    {
+      "skill": "Apache Beam",
+      "pattern": "\\bbeam\\b",
+      "category": "Data Engineering",
+      "subcategory": "Processing",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "Apache Kafka",
+      "pattern": "\\bkafka\\b",
+      "category": "Data Engineering",
+      "subcategory": "Streaming",
+      "confidence": 0.95,
+      "aliases": [
+        "Kafka"
+      ]
+    },
+    {
+      "skill": "Kafka Streams",
+      "pattern": "\\bkafka\\s*streams\\b",
+      "category": "Data Engineering",
+      "subcategory": "Streaming",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "Apache Flink",
+      "pattern": "\\bflink\\b",
+      "category": "Data Engineering",
+      "subcategory": "Streaming",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "Apache Airflow",
+      "pattern": "\\bairflow\\b",
+      "category": "Data Engineering",
+      "subcategory": "Orchestration",
+      "confidence": 0.95,
+      "aliases": [
+        "Airflow"
+      ]
+    },
+    {
+      "skill": "Dagster",
+      "pattern": "\\bdagster\\b",
+      "category": "Data Engineering",
+      "subcategory": "Orchestration",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "Prefect",
+      "pattern": "\\bprefect\\b",
+      "category": "Data Engineering",
+      "subcategory": "Orchestration",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "Luigi",
+      "pattern": "\\bluigi\\b",
+      "category": "Data Engineering",
+      "subcategory": "Orchestration",
+      "confidence": 0.85,
+      "aliases": []
+    },
+    {
+      "skill": "Apache NiFi",
+      "pattern": "\\bnifi\\b",
+      "category": "Data Engineering",
+      "subcategory": "Integration",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "Fivetran",
+      "pattern": "\\bfivetran\\b",
+      "category": "Data Engineering",
+      "subcategory": "Integration",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "Airbyte",
+      "pattern": "\\bairbyte\\b",
+      "category": "Data Engineering",
+      "subcategory": "Integration",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "Talend",
+      "pattern": "\\btalend\\b",
+      "category": "Data Engineering",
+      "subcategory": "Integration",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "Informatica",
+      "pattern": "\\binformatica\\b",
+      "category": "Data Engineering",
+      "subcategory": "Integration",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "Databricks",
+      "pattern": "\\bdatabricks\\b",
+      "category": "Data Engineering",
+      "subcategory": "Platform",
+      "confidence": 0.95,
+      "aliases": []
+    },
+    {
+      "skill": "Delta Lake",
+      "pattern": "\\bdelta\\s*lake\\b",
+      "category": "Data Engineering",
+      "subcategory": "Storage Format",
+      "confidence": 0.95,
+      "aliases": []
+    },
+    {
+      "skill": "Apache Iceberg",
+      "pattern": "\\biceberg\\b",
+      "category": "Data Engineering",
+      "subcategory": "Storage Format",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "Apache Parquet",
+      "pattern": "\\bparquet\\b",
+      "category": "Data Engineering",
+      "subcategory": "File Format",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "Apache Avro",
+      "pattern": "\\bavro\\b",
+      "category": "Data Engineering",
+      "subcategory": "File Format",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "Data Lake",
+      "pattern": "\\bdata\\s*lake\\b",
+      "category": "Data Engineering",
+      "subcategory": "Architecture",
+      "confidence": 0.95,
+      "aliases": []
+    },
+    {
+      "skill": "Data Lakehouse",
+      "pattern": "\\blakehouse\\b",
+      "category": "Data Engineering",
+      "subcategory": "Architecture",
+      "confidence": 0.95,
+      "aliases": []
+    },
+    {
+      "skill": "Data Warehouse",
+      "pattern": "\\bdata\\s*warehouse\\b",
+      "category": "Data Engineering",
+      "subcategory": "Architecture",
+      "confidence": 0.95,
+      "aliases": []
+    },
+    {
+      "skill": "Medallion Architecture",
+      "pattern": "\\bmedallion\\b",
+      "category": "Data Engineering",
+      "subcategory": "Architecture",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "ETL",
+      "pattern": "\\betl\\b",
+      "category": "Data Engineering",
+      "subcategory": "Process",
+      "confidence": 0.95,
+      "aliases": []
+    },
+    {
+      "skill": "ELT",
+      "pattern": "\\belt\\b",
+      "category": "Data Engineering",
+      "subcategory": "Process",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "Batch Processing",
+      "pattern": "\\bbatch\\s*process\\b",
+      "category": "Data Engineering",
+      "subcategory": "Process",
+      "confidence": 0.85,
+      "aliases": []
+    },
+    {
+      "skill": "Stream Processing",
+      "pattern": "\\bstream\\s*process\\b",
+      "category": "Data Engineering",
+      "subcategory": "Process",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "dbt",
+      "pattern": "\\bdbt\\b",
+      "category": "Data Engineering",
+      "subcategory": "Transformation",
+      "confidence": 0.95,
+      "aliases": [
+        "Data Build Tool"
+      ]
+    },
+    {
+      "skill": "Hadoop",
+      "pattern": "\\bhadoop\\b",
+      "category": "Data Engineering",
+      "subcategory": "Big Data",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "HDFS",
+      "pattern": "\\bhdfs\\b",
+      "category": "Data Engineering",
+      "subcategory": "Big Data",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "Data Quality",
+      "pattern": "\\bdata\\s*quality\\b",
+      "category": "Data Engineering",
+      "subcategory": "Governance",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "Data Governance",
+      "pattern": "\\bdata\\s*governance\\b",
+      "category": "Data Engineering",
+      "subcategory": "Governance",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "Data Lineage",
+      "pattern": "\\bdata\\s*lineage\\b",
+      "category": "Data Engineering",
+      "subcategory": "Governance",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "CDC",
+      "pattern": "\\b(cdc|change\\s*data\\s*capture)\\b",
+      "category": "Data Engineering",
+      "subcategory": "Pattern",
+      "confidence": 0.9,
+      "aliases": [
+        "Change Data Capture"
+      ]
+    },
+    {
+      "skill": "Debezium",
+      "pattern": "\\bdebezium\\b",
+      "category": "Data Engineering",
+      "subcategory": "CDC",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "Data Science",
+      "pattern": "\\bdata\\s*science\\b",
+      "category": "Data Science",
+      "subcategory": "Core",
+      "confidence": 0.95,
+      "aliases": [
+        "Data Scientist"
+      ]
+    },
+    {
+      "skill": "Data Analysis",
+      "pattern": "\\bdata\\s*analysis\\b",
+      "category": "Data Science",
+      "subcategory": "Core",
+      "confidence": 0.95,
+      "aliases": [
+        "Data Analyst"
+      ]
+    },
+    {
+      "skill": "Data Analytics",
+      "pattern": "\\bdata\\s*analytics\\b",
+      "category": "Data Science",
+      "subcategory": "Core",
+      "confidence": 0.95,
+      "aliases": []
+    },
+    {
+      "skill": "Statistics",
+      "pattern": "\\b(statistics|statistical)\\b",
+      "category": "Data Science",
+      "subcategory": "Mathematics",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "Probability",
+      "pattern": "\\bprobability\\b",
+      "category": "Data Science",
+      "subcategory": "Mathematics",
+      "confidence": 0.85,
+      "aliases": []
+    },
+    {
+      "skill": "Hypothesis Testing",
+      "pattern": "\\bhypothesis\\s*testing\\b",
+      "category": "Data Science",
+      "subcategory": "Statistics",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "Regression Analysis",
+      "pattern": "\\bregression\\b",
+      "category": "Data Science",
+      "subcategory": "Statistics",
+      "confidence": 0.85,
+      "aliases": [
+        "Linear Regression",
+        "Logistic Regression"
+      ]
+    },
+    {
+      "skill": "Time Series",
+      "pattern": "\\btime\\s*series\\b",
+      "category": "Data Science",
+      "subcategory": "Statistics",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "A/B Testing",
+      "pattern": "\\ba/?b\\s*testing\\b",
+      "category": "Data Science",
+      "subcategory": "Experimentation",
+      "confidence": 0.95,
+      "aliases": [
+        "AB Testing"
+      ]
+    },
+    {
+      "skill": "Predictive Modeling",
+      "pattern": "\\bpredictive\\s*model(ing|s)?\\b",
+      "category": "Data Science",
+      "subcategory": "Modeling",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "Data Modeling",
+      "pattern": "\\bdata\\s*model(ing|s)?\\b",
+      "category": "Data Science",
+      "subcategory": "Modeling",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "Data Mining",
+      "pattern": "\\bdata\\s*mining\\b",
+      "category": "Data Science",
+      "subcategory": "Technique",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "Feature Engineering",
+      "pattern": "\\bfeature\\s*engineering\\b",
+      "category": "Data Science",
+      "subcategory": "Technique",
+      "confidence": 0.95,
+      "aliases": []
+    },
+    {
+      "skill": "Data Cleaning",
+      "pattern": "\\bdata\\s*cleaning\\b",
+      "category": "Data Science",
+      "subcategory": "Preprocessing",
+      "confidence": 0.9,
+      "aliases": [
+        "Data Cleansing"
+      ]
+    },
+    {
+      "skill": "Data Wrangling",
+      "pattern": "\\bdata\\s*wrangling\\b",
+      "category": "Data Science",
+      "subcategory": "Preprocessing",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "ETL",
+      "pattern": "\\betl\\b",
+      "category": "Data Science",
+      "subcategory": "Process",
+      "confidence": 0.95,
+      "aliases": [
+        "Extract Transform Load"
+      ]
+    },
+    {
+      "skill": "ELT",
+      "pattern": "\\belt\\b",
+      "category": "Data Science",
+      "subcategory": "Process",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "Data Visualization",
+      "pattern": "\\bdata\\s*visualization\\b",
+      "category": "Data Science",
+      "subcategory": "Visualization",
+      "confidence": 0.95,
+      "aliases": []
+    },
+    {
+      "skill": "Tableau",
+      "pattern": "\\btableau\\b",
+      "category": "Data Science",
+      "subcategory": "BI Tool",
+      "confidence": 0.95,
+      "aliases": []
+    },
+    {
+      "skill": "Power BI",
+      "pattern": "\\bpower\\s*bi\\b",
+      "category": "Data Science",
+      "subcategory": "BI Tool",
+      "confidence": 0.95,
+      "aliases": [
+        "PowerBI"
+      ]
+    },
+    {
+      "skill": "Looker",
+      "pattern": "\\blooker\\b",
+      "category": "Data Science",
+      "subcategory": "BI Tool",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "QlikView",
+      "pattern": "\\bqlik(view|sense)?\\b",
+      "category": "Data Science",
+      "subcategory": "BI Tool",
+      "confidence": 0.9,
+      "aliases": [
+        "Qlik Sense"
+      ]
+    },
+    {
+      "skill": "R Programming",
+      "pattern": "\\br\\s*(programming|language|studio)?\\b",
+      "category": "Data Science",
+      "subcategory": "Programming",
+      "confidence": 0.8,
+      "aliases": [
+        "R"
+      ]
+    },
+    {
+      "skill": "SAS",
+      "pattern": "\\bsas\\b",
+      "category": "Data Science",
+      "subcategory": "Statistical Software",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "SPSS",
+      "pattern": "\\bspss\\b",
+      "category": "Data Science",
+      "subcategory": "Statistical Software",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "MATLAB",
+      "pattern": "\\bmatlab\\b",
+      "category": "Data Science",
+      "subcategory": "Scientific Computing",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "Excel",
+      "pattern": "\\bexcel\\b",
+      "category": "Data Science",
+      "subcategory": "Spreadsheet",
+      "confidence": 0.8,
+      "aliases": [
+        "Microsoft Excel"
+      ]
+    },
+    {
+      "skill": "Business Intelligence",
+      "pattern": "\\bbusiness\\s*intelligence\\b",
+      "category": "Data Science",
+      "subcategory": "Domain",
+      "confidence": 0.9,
+      "aliases": [
+        "BI"
+      ]
+    },
+    {
+      "skill": "KPI",
+      "pattern": "\\bkpis?\\b",
+      "category": "Data Science",
+      "subcategory": "Metrics",
+      "confidence": 0.85,
+      "aliases": []
+    },
+    {
+      "skill": "Dashboard",
+      "pattern": "\\bdashboard\\b",
+      "category": "Data Science",
+      "subcategory": "Visualization",
+      "confidence": 0.85,
+      "aliases": []
+    },
+    {
+      "skill": "EDA",
+      "pattern": "\\b(eda|exploratory\\s*data\\s*analysis)\\b",
+      "category": "Data Science",
+      "subcategory": "Analysis",
+      "confidence": 0.9,
+      "aliases": [
+        "Exploratory Data Analysis"
+      ]
+    },
+    {
+      "skill": "Cohort Analysis",
+      "pattern": "\\bcohort\\s*analysis\\b",
+      "category": "Data Science",
+      "subcategory": "Analysis",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "Segmentation",
+      "pattern": "\\bsegmentation\\b",
+      "category": "Data Science",
+      "subcategory": "Analysis",
+      "confidence": 0.8,
+      "aliases": []
+    },
+    {
+      "skill": "Sentiment Analysis",
+      "pattern": "\\bsentiment\\s*analysis\\b",
+      "category": "Data Science",
+      "subcategory": "NLP",
+      "confidence": 0.95,
+      "aliases": []
+    },
+    {
+      "skill": "SQL",
+      "pattern": "\\bsql\\b",
+      "category": "Database",
+      "subcategory": "Language",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "MySQL",
+      "pattern": "\\bmysql\\b",
+      "category": "Database",
+      "subcategory": "Relational",
+      "confidence": 0.95,
+      "aliases": []
+    },
+    {
+      "skill": "PostgreSQL",
+      "pattern": "\\b(postgresql|postgres)\\b",
+      "category": "Database",
+      "subcategory": "Relational",
+      "confidence": 0.95,
+      "aliases": [
+        "Postgres"
+      ]
+    },
+    {
+      "skill": "Oracle Database",
+      "pattern": "\\boracle\\b",
+      "category": "Database",
+      "subcategory": "Relational",
+      "confidence": 0.85,
+      "aliases": []
+    },
+    {
+      "skill": "SQL Server",
+      "pattern": "\\b(sql\\s*server|mssql)\\b",
+      "category": "Database",
+      "subcategory": "Relational",
+      "confidence": 0.9,
+      "aliases": [
+        "MSSQL"
+      ]
+    },
+    {
+      "skill": "MariaDB",
+      "pattern": "\\bmariadb\\b",
+      "category": "Database",
+      "subcategory": "Relational",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "SQLite",
+      "pattern": "\\bsqlite\\b",
+      "category": "Database",
+      "subcategory": "Relational",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "MongoDB",
+      "pattern": "\\bmongodb\\b",
+      "category": "Database",
+      "subcategory": "NoSQL",
+      "confidence": 0.95,
+      "aliases": [
+        "Mongo"
+      ]
+    },
+    {
+      "skill": "Cassandra",
+      "pattern": "\\bcassandra\\b",
+      "category": "Database",
+      "subcategory": "NoSQL",
+      "confidence": 0.95,
+      "aliases": []
+    },
+    {
+      "skill": "CouchDB",
+      "pattern": "\\bcouchdb\\b",
+      "category": "Database",
+      "subcategory": "NoSQL",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "DynamoDB",
+      "pattern": "\\bdynamodb\\b",
+      "category": "Database",
+      "subcategory": "NoSQL",
+      "confidence": 0.95,
+      "aliases": []
+    },
+    {
+      "skill": "Redis",
+      "pattern": "\\bredis\\b",
+      "category": "Database",
+      "subcategory": "Cache",
+      "confidence": 0.95,
+      "aliases": []
+    },
+    {
+      "skill": "Memcached",
+      "pattern": "\\bmemcached\\b",
+      "category": "Database",
+      "subcategory": "Cache",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "Elasticsearch",
+      "pattern": "\\belasticsearch\\b",
+      "category": "Database",
+      "subcategory": "Search Engine",
+      "confidence": 0.95,
+      "aliases": []
+    },
+    {
+      "skill": "Neo4j",
+      "pattern": "\\bneo4j\\b",
+      "category": "Database",
+      "subcategory": "Graph",
+      "confidence": 0.95,
+      "aliases": []
+    },
+    {
+      "skill": "InfluxDB",
+      "pattern": "\\binfluxdb\\b",
+      "category": "Database",
+      "subcategory": "Time Series",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "Firebase",
+      "pattern": "\\bfirebase\\b",
+      "category": "Database",
+      "subcategory": "BaaS",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "Snowflake",
+      "pattern": "\\bsnowflake\\b",
+      "category": "Database",
+      "subcategory": "Data Warehouse",
+      "confidence": 0.95,
+      "aliases": []
+    },
+    {
+      "skill": "Redshift",
+      "pattern": "\\bredshift\\b",
+      "category": "Database",
+      "subcategory": "Data Warehouse",
+      "confidence": 0.95,
+      "aliases": []
+    },
+    {
+      "skill": "BigQuery",
+      "pattern": "\\bbigquery\\b",
+      "category": "Database",
+      "subcategory": "Data Warehouse",
+      "confidence": 0.95,
+      "aliases": []
+    },
+    {
+      "skill": "Teradata",
+      "pattern": "\\bteradata\\b",
+      "category": "Database",
+      "subcategory": "Data Warehouse",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "Apache Hive",
+      "pattern": "\\bhive\\b",
+      "category": "Database",
+      "subcategory": "Data Warehouse",
+      "confidence": 0.85,
+      "aliases": []
+    },
+    {
+      "skill": "Presto",
+      "pattern": "\\bpresto\\b",
+      "category": "Database",
+      "subcategory": "Query Engine",
+      "confidence": 0.85,
+      "aliases": []
+    },
+    {
+      "skill": "Trino",
+      "pattern": "\\btrino\\b",
+      "category": "Database",
+      "subcategory": "Query Engine",
+      "confidence": 0.85,
+      "aliases": []
+    },
+    {
+      "skill": "ClickHouse",
+      "pattern": "\\bclickhouse\\b",
+      "category": "Database",
+      "subcategory": "Analytics",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "Database Design",
+      "pattern": "\\bdatabase\\s*design\\b",
+      "category": "Database",
+      "subcategory": "Skill",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "Data Modeling",
+      "pattern": "\\bdata\\s*model(ing)?\\b",
+      "category": "Database",
+      "subcategory": "Skill",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "Stored Procedures",
+      "pattern": "\\bstored\\s*procedure\\b",
+      "category": "Database",
+      "subcategory": "Skill",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "NoSQL",
+      "pattern": "\\bnosql\\b",
+      "category": "Database",
+      "subcategory": "Type",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "RDBMS",
+      "pattern": "\\brdbms\\b",
+      "category": "Database",
+      "subcategory": "Type",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "Pinecone",
+      "pattern": "\\bpinecone\\b",
+      "category": "Database",
+      "subcategory": "Vector Database",
+      "confidence": 0.95,
+      "aliases": []
+    },
+    {
+      "skill": "Weaviate",
+      "pattern": "\\bweaviate\\b",
+      "category": "Database",
+      "subcategory": "Vector Database",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "Milvus",
+      "pattern": "\\bmilvus\\b",
+      "category": "Database",
+      "subcategory": "Vector Database",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "Chroma",
+      "pattern": "\\bchroma\\b",
+      "category": "Database",
+      "subcategory": "Vector Database",
+      "confidence": 0.85,
+      "aliases": []
+    },
+    {
+      "skill": "DevOps",
+      "pattern": "\\bdevops\\b",
+      "category": "DevOps",
+      "subcategory": "Practice",
+      "confidence": 0.95,
+      "aliases": []
+    },
+    {
+      "skill": "CI/CD",
+      "pattern": "\\b(ci/?cd|continuous\\s*integration|continuous\\s*deployment)\\b",
+      "category": "DevOps",
+      "subcategory": "Practice",
+      "confidence": 0.95,
+      "aliases": [
+        "Continuous Integration"
+      ]
+    },
+    {
+      "skill": "Jenkins",
+      "pattern": "\\bjenkins\\b",
+      "category": "DevOps",
+      "subcategory": "CI/CD Tool",
+      "confidence": 0.95,
+      "aliases": []
+    },
+    {
+      "skill": "GitLab CI",
+      "pattern": "\\bgitlab\\s*(ci)?\\b",
+      "category": "DevOps",
+      "subcategory": "CI/CD Tool",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "GitHub Actions",
+      "pattern": "\\bgithub\\s*actions\\b",
+      "category": "DevOps",
+      "subcategory": "CI/CD Tool",
+      "confidence": 0.95,
+      "aliases": []
+    },
+    {
+      "skill": "CircleCI",
+      "pattern": "\\bcircleci\\b",
+      "category": "DevOps",
+      "subcategory": "CI/CD Tool",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "ArgoCD",
+      "pattern": "\\bargocd\\b",
+      "category": "DevOps",
+      "subcategory": "CI/CD Tool",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "Docker",
+      "pattern": "\\bdocker\\b",
+      "category": "DevOps",
+      "subcategory": "Containerization",
+      "confidence": 0.95,
+      "aliases": []
+    },
+    {
+      "skill": "Kubernetes",
+      "pattern": "\\b(kubernetes|k8s)\\b",
+      "category": "DevOps",
+      "subcategory": "Orchestration",
+      "confidence": 0.95,
+      "aliases": [
+        "K8s"
+      ]
+    },
+    {
+      "skill": "Helm",
+      "pattern": "\\bhelm\\b",
+      "category": "DevOps",
+      "subcategory": "Kubernetes",
+      "confidence": 0.85,
+      "aliases": []
+    },
+    {
+      "skill": "Istio",
+      "pattern": "\\bistio\\b",
+      "category": "DevOps",
+      "subcategory": "Service Mesh",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "Terraform",
+      "pattern": "\\bterraform\\b",
+      "category": "DevOps",
+      "subcategory": "IaC",
+      "confidence": 0.95,
+      "aliases": []
+    },
+    {
+      "skill": "Ansible",
+      "pattern": "\\bansible\\b",
+      "category": "DevOps",
+      "subcategory": "Configuration Management",
+      "confidence": 0.95,
+      "aliases": []
+    },
+    {
+      "skill": "Puppet",
+      "pattern": "\\bpuppet\\b",
+      "category": "DevOps",
+      "subcategory": "Configuration Management",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "Chef",
+      "pattern": "\\bchef\\b",
+      "category": "DevOps",
+      "subcategory": "Configuration Management",
+      "confidence": 0.85,
+      "aliases": []
+    },
+    {
+      "skill": "Pulumi",
+      "pattern": "\\bpulumi\\b",
+      "category": "DevOps",
+      "subcategory": "IaC",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "Infrastructure as Code",
+      "pattern": "\\b(infrastructure\\s*as\\s*code|iac)\\b",
+      "category": "DevOps",
+      "subcategory": "Practice",
+      "confidence": 0.9,
+      "aliases": [
+        "IaC"
+      ]
+    },
+    {
+      "skill": "Prometheus",
+      "pattern": "\\bprometheus\\b",
+      "category": "DevOps",
+      "subcategory": "Monitoring",
+      "confidence": 0.95,
+      "aliases": []
+    },
+    {
+      "skill": "Grafana",
+      "pattern": "\\bgrafana\\b",
+      "category": "DevOps",
+      "subcategory": "Monitoring",
+      "confidence": 0.95,
+      "aliases": []
+    },
+    {
+      "skill": "Datadog",
+      "pattern": "\\bdatadog\\b",
+      "category": "DevOps",
+      "subcategory": "Monitoring",
+      "confidence": 0.95,
+      "aliases": []
+    },
+    {
+      "skill": "New Relic",
+      "pattern": "\\bnew\\s*relic\\b",
+      "category": "DevOps",
+      "subcategory": "Monitoring",
+      "confidence": 0.95,
+      "aliases": []
+    },
+    {
+      "skill": "Splunk",
+      "pattern": "\\bsplunk\\b",
+      "category": "DevOps",
+      "subcategory": "Monitoring",
+      "confidence": 0.95,
+      "aliases": []
+    },
+    {
+      "skill": "ELK Stack",
+      "pattern": "\\belk\\b",
+      "category": "DevOps",
+      "subcategory": "Logging",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "Elasticsearch",
+      "pattern": "\\belasticsearch\\b",
+      "category": "DevOps",
+      "subcategory": "Search/Logging",
+      "confidence": 0.95,
+      "aliases": []
+    },
+    {
+      "skill": "Nginx",
+      "pattern": "\\bnginx\\b",
+      "category": "DevOps",
+      "subcategory": "Web Server",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "Linux",
+      "pattern": "\\blinux\\b",
+      "category": "DevOps",
+      "subcategory": "Operating System",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "Unix",
+      "pattern": "\\bunix\\b",
+      "category": "DevOps",
+      "subcategory": "Operating System",
+      "confidence": 0.85,
+      "aliases": []
+    },
+    {
+      "skill": "Bash",
+      "pattern": "\\bbash\\b",
+      "category": "DevOps",
+      "subcategory": "Scripting",
+      "confidence": 0.85,
+      "aliases": []
+    },
+    {
+      "skill": "Shell Scripting",
+      "pattern": "\\bshell\\s*(script)?\\b",
+      "category": "DevOps",
+      "subcategory": "Scripting",
+      "confidence": 0.85,
+      "aliases": []
+    },
+    {
+      "skill": "Git",
+      "pattern": "\\bgit\\b",
+      "category": "DevOps",
+      "subcategory": "Version Control",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "GitHub",
+      "pattern": "\\bgithub\\b",
+      "category": "DevOps",
+      "subcategory": "Version Control",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "GitLab",
+      "pattern": "\\bgitlab\\b",
+      "category": "DevOps",
+      "subcategory": "Version Control",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "Bitbucket",
+      "pattern": "\\bbitbucket\\b",
+      "category": "DevOps",
+      "subcategory": "Version Control",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "HashiCorp Vault",
+      "pattern": "\\bvault\\b",
+      "category": "DevOps",
+      "subcategory": "Secrets Management",
+      "confidence": 0.8,
+      "aliases": []
+    },
+    {
+      "skill": "SRE",
+      "pattern": "\\b(sre|site\\s*reliability)\\b",
+      "category": "DevOps",
+      "subcategory": "Practice",
+      "confidence": 0.9,
+      "aliases": [
+        "Site Reliability Engineering"
+      ]
+    },
+    {
+      "skill": "Observability",
+      "pattern": "\\bobservability\\b",
+      "category": "DevOps",
+      "subcategory": "Practice",
+      "confidence": 0.85,
+      "aliases": []
+    },
+    {
+      "skill": "Java",
+      "pattern": "\\bjava\\b",
+      "category": "Java",
+      "subcategory": "Core Language",
+      "confidence": 0.95,
+      "aliases": [
+        "Java 8",
+        "Java 11",
+        "Java 17"
+      ]
+    },
+    {
+      "skill": "Spring Framework",
+      "pattern": "\\bspring\\b",
+      "category": "Java",
+      "subcategory": "Framework",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "Spring Boot",
+      "pattern": "\\bspring\\s*boot\\b",
+      "category": "Java",
+      "subcategory": "Framework",
+      "confidence": 0.95,
+      "aliases": [
+        "SpringBoot"
+      ]
+    },
+    {
+      "skill": "Spring MVC",
+      "pattern": "\\bspring\\s*mvc\\b",
+      "category": "Java",
+      "subcategory": "Framework",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "Spring Security",
+      "pattern": "\\bspring\\s*security\\b",
+      "category": "Java",
+      "subcategory": "Security",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "Spring Cloud",
+      "pattern": "\\bspring\\s*cloud\\b",
+      "category": "Java",
+      "subcategory": "Microservices",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "Hibernate",
+      "pattern": "\\bhibernate\\b",
+      "category": "Java",
+      "subcategory": "ORM",
+      "confidence": 0.95,
+      "aliases": []
+    },
+    {
+      "skill": "JPA",
+      "pattern": "\\bjpa\\b",
+      "category": "Java",
+      "subcategory": "ORM",
+      "confidence": 0.9,
+      "aliases": [
+        "Java Persistence API"
+      ]
+    },
+    {
+      "skill": "JDBC",
+      "pattern": "\\bjdbc\\b",
+      "category": "Java",
+      "subcategory": "Database Connectivity",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "Maven",
+      "pattern": "\\bmaven\\b",
+      "category": "Java",
+      "subcategory": "Build Tool",
+      "confidence": 0.95,
+      "aliases": []
+    },
+    {
+      "skill": "Gradle",
+      "pattern": "\\bgradle\\b",
+      "category": "Java",
+      "subcategory": "Build Tool",
+      "confidence": 0.95,
+      "aliases": []
+    },
+    {
+      "skill": "JUnit",
+      "pattern": "\\bjunit\\b",
+      "category": "Java",
+      "subcategory": "Testing",
+      "confidence": 0.95,
+      "aliases": [
+        "JUnit 5"
+      ]
+    },
+    {
+      "skill": "Mockito",
+      "pattern": "\\bmockito\\b",
+      "category": "Java",
+      "subcategory": "Testing",
+      "confidence": 0.95,
+      "aliases": []
+    },
+    {
+      "skill": "TestNG",
+      "pattern": "\\btestng\\b",
+      "category": "Java",
+      "subcategory": "Testing",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "Tomcat",
+      "pattern": "\\btomcat\\b",
+      "category": "Java",
+      "subcategory": "Application Server",
+      "confidence": 0.9,
+      "aliases": [
+        "Apache Tomcat"
+      ]
+    },
+    {
+      "skill": "JBoss",
+      "pattern": "\\bjboss\\b",
+      "category": "Java",
+      "subcategory": "Application Server",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "WebLogic",
+      "pattern": "\\bweblogic\\b",
+      "category": "Java",
+      "subcategory": "Application Server",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "Apache Kafka",
+      "pattern": "\\bkafka\\b",
+      "category": "Java",
+      "subcategory": "Messaging",
+      "confidence": 0.95,
+      "aliases": [
+        "Kafka"
+      ]
+    },
+    {
+      "skill": "RabbitMQ",
+      "pattern": "\\brabbitmq\\b",
+      "category": "Java",
+      "subcategory": "Messaging",
+      "confidence": 0.95,
+      "aliases": []
+    },
+    {
+      "skill": "Microservices",
+      "pattern": "\\bmicroservices?\\b",
+      "category": "Java",
+      "subcategory": "Architecture",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "RESTful API",
+      "pattern": "\\b(restful|rest\\s*api)\\b",
+      "category": "Java",
+      "subcategory": "API",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "SOAP",
+      "pattern": "\\bsoap\\b",
+      "category": "Java",
+      "subcategory": "API",
+      "confidence": 0.85,
+      "aliases": []
+    },
+    {
+      "skill": "Java EE",
+      "pattern": "\\b(java\\s*ee|j2ee|jakarta)\\b",
+      "category": "Java",
+      "subcategory": "Enterprise",
+      "confidence": 0.9,
+      "aliases": [
+        "J2EE",
+        "Jakarta EE"
+      ]
+    },
+    {
+      "skill": "Lombok",
+      "pattern": "\\blombok\\b",
+      "category": "Java",
+      "subcategory": "Library",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "Log4j",
+      "pattern": "\\blog4j\\b",
+      "category": "Java",
+      "subcategory": "Logging",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "Quarkus",
+      "pattern": "\\bquarkus\\b",
+      "category": "Java",
+      "subcategory": "Framework",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "Micronaut",
+      "pattern": "\\bmicronaut\\b",
+      "category": "Java",
+      "subcategory": "Framework",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "JVM",
+      "pattern": "\\bjvm\\b",
+      "category": "Java",
+      "subcategory": "Runtime",
+      "confidence": 0.9,
+      "aliases": [
+        "Java Virtual Machine"
+      ]
+    },
+    {
+      "skill": "Multithreading",
+      "pattern": "\\b(multithreading|multi-threading)\\b",
+      "category": "Java",
+      "subcategory": "Concurrency",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "Design Patterns",
+      "pattern": "\\bdesign\\s*patterns?\\b",
+      "category": "Java",
+      "subcategory": "Paradigm",
+      "confidence": 0.85,
+      "aliases": []
+    },
+    {
+      "skill": "Machine Learning",
+      "pattern": "\\bmachine\\s*learning\\b",
+      "category": "Machine Learning",
+      "subcategory": "Core",
+      "confidence": 0.95,
+      "aliases": [
+        "ML"
+      ]
+    },
+    {
+      "skill": "Deep Learning",
+      "pattern": "\\bdeep\\s*learning\\b",
+      "category": "Machine Learning",
+      "subcategory": "Core",
+      "confidence": 0.95,
+      "aliases": [
+        "DL"
+      ]
+    },
+    {
+      "skill": "Artificial Intelligence",
+      "pattern": "\\b(artificial\\s*intelligence|\\bai\\b)\\b",
+      "category": "Machine Learning",
+      "subcategory": "Core",
+      "confidence": 0.95,
+      "aliases": [
+        "AI"
+      ]
+    },
+    {
+      "skill": "Neural Networks",
+      "pattern": "\\bneural\\s*network\\b",
+      "category": "Machine Learning",
+      "subcategory": "Architecture",
+      "confidence": 0.95,
+      "aliases": [
+        "NN"
+      ]
+    },
+    {
+      "skill": "CNN",
+      "pattern": "\\b(cnn|convolutional\\s*neural)\\b",
+      "category": "Machine Learning",
+      "subcategory": "Architecture",
+      "confidence": 0.95,
+      "aliases": [
+        "Convolutional Neural Network"
+      ]
+    },
+    {
+      "skill": "RNN",
+      "pattern": "\\b(rnn|recurrent\\s*neural)\\b",
+      "category": "Machine Learning",
+      "subcategory": "Architecture",
+      "confidence": 0.95,
+      "aliases": [
+        "Recurrent Neural Network"
+      ]
+    },
+    {
+      "skill": "LSTM",
+      "pattern": "\\blstm\\b",
+      "category": "Machine Learning",
+      "subcategory": "Architecture",
+      "confidence": 0.95,
+      "aliases": []
+    },
+    {
+      "skill": "Transformer",
+      "pattern": "\\btransformer\\b",
+      "category": "Machine Learning",
+      "subcategory": "Architecture",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "BERT",
+      "pattern": "\\bbert\\b",
+      "category": "Machine Learning",
+      "subcategory": "NLP Model",
+      "confidence": 0.95,
+      "aliases": []
+    },
+    {
+      "skill": "GPT",
+      "pattern": "\\bgpt\\b",
+      "category": "Machine Learning",
+      "subcategory": "NLP Model",
+      "confidence": 0.95,
+      "aliases": [
+        "GPT-3",
+        "GPT-4"
+      ]
+    },
+    {
+      "skill": "Large Language Models",
+      "pattern": "\\b(llm|large\\s*language\\s*model)\\b",
+      "category": "Machine Learning",
+      "subcategory": "NLP Model",
+      "confidence": 0.95,
+      "aliases": [
+        "LLM"
+      ]
+    },
+    {
+      "skill": "Generative AI",
+      "pattern": "\\bgenerative\\s*ai\\b",
+      "category": "Machine Learning",
+      "subcategory": "Generative",
+      "confidence": 0.95,
+      "aliases": [
+        "GenAI"
+      ]
+    },
+    {
+      "skill": "GANs",
+      "pattern": "\\b(gan|generative\\s*adversarial)\\b",
+      "category": "Machine Learning",
+      "subcategory": "Generative",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "Supervised Learning",
+      "pattern": "\\bsupervised\\s*learning\\b",
+      "category": "Machine Learning",
+      "subcategory": "Paradigm",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "Unsupervised Learning",
+      "pattern": "\\bunsupervised\\s*learning\\b",
+      "category": "Machine Learning",
+      "subcategory": "Paradigm",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "Reinforcement Learning",
+      "pattern": "\\breinforcement\\s*learning\\b",
+      "category": "Machine Learning",
+      "subcategory": "Paradigm",
+      "confidence": 0.95,
+      "aliases": [
+        "RL"
+      ]
+    },
+    {
+      "skill": "Transfer Learning",
+      "pattern": "\\btransfer\\s*learning\\b",
+      "category": "Machine Learning",
+      "subcategory": "Technique",
+      "confidence": 0.95,
+      "aliases": []
+    },
+    {
+      "skill": "Fine-Tuning",
+      "pattern": "\\bfine[\\s-]?tun(e|ing)\\b",
+      "category": "Machine Learning",
+      "subcategory": "Technique",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "Random Forest",
+      "pattern": "\\brandom\\s*forest\\b",
+      "category": "Machine Learning",
+      "subcategory": "Algorithm",
+      "confidence": 0.95,
+      "aliases": []
+    },
+    {
+      "skill": "XGBoost",
+      "pattern": "\\bxgboost\\b",
+      "category": "Machine Learning",
+      "subcategory": "Algorithm",
+      "confidence": 0.95,
+      "aliases": []
+    },
+    {
+      "skill": "LightGBM",
+      "pattern": "\\blightgbm\\b",
+      "category": "Machine Learning",
+      "subcategory": "Algorithm",
+      "confidence": 0.95,
+      "aliases": []
+    },
+    {
+      "skill": "Gradient Boosting",
+      "pattern": "\\bgradient\\s*boosting\\b",
+      "category": "Machine Learning",
+      "subcategory": "Algorithm",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "SVM",
+      "pattern": "\\b(svm|support\\s*vector)\\b",
+      "category": "Machine Learning",
+      "subcategory": "Algorithm",
+      "confidence": 0.9,
+      "aliases": [
+        "Support Vector Machine"
+      ]
+    },
+    {
+      "skill": "K-Means",
+      "pattern": "\\bk[\\s-]?means\\b",
+      "category": "Machine Learning",
+      "subcategory": "Algorithm",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "Classification",
+      "pattern": "\\bclassification\\b",
+      "category": "Machine Learning",
+      "subcategory": "Task",
+      "confidence": 0.85,
+      "aliases": []
+    },
+    {
+      "skill": "Clustering",
+      "pattern": "\\bclustering\\b",
+      "category": "Machine Learning",
+      "subcategory": "Task",
+      "confidence": 0.85,
+      "aliases": []
+    },
+    {
+      "skill": "Computer Vision",
+      "pattern": "\\bcomputer\\s*vision\\b",
+      "category": "Machine Learning",
+      "subcategory": "Domain",
+      "confidence": 0.95,
+      "aliases": [
+        "CV"
+      ]
+    },
+    {
+      "skill": "NLP",
+      "pattern": "\\b(nlp|natural\\s*language\\s*processing)\\b",
+      "category": "Machine Learning",
+      "subcategory": "Domain",
+      "confidence": 0.95,
+      "aliases": [
+        "Natural Language Processing"
+      ]
+    },
+    {
+      "skill": "Object Detection",
+      "pattern": "\\bobject\\s*detection\\b",
+      "category": "Machine Learning",
+      "subcategory": "Computer Vision",
+      "confidence": 0.95,
+      "aliases": []
+    },
+    {
+      "skill": "Image Classification",
+      "pattern": "\\bimage\\s*classification\\b",
+      "category": "Machine Learning",
+      "subcategory": "Computer Vision",
+      "confidence": 0.95,
+      "aliases": []
+    },
+    {
+      "skill": "MLflow",
+      "pattern": "\\bmlflow\\b",
+      "category": "Machine Learning",
+      "subcategory": "MLOps",
+      "confidence": 0.95,
+      "aliases": []
+    },
+    {
+      "skill": "Kubeflow",
+      "pattern": "\\bkubeflow\\b",
+      "category": "Machine Learning",
+      "subcategory": "MLOps",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "MLOps",
+      "pattern": "\\bmlops\\b",
+      "category": "Machine Learning",
+      "subcategory": "MLOps",
+      "confidence": 0.95,
+      "aliases": []
+    },
+    {
+      "skill": "Model Deployment",
+      "pattern": "\\bmodel\\s*deployment\\b",
+      "category": "Machine Learning",
+      "subcategory": "MLOps",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "Prompt Engineering",
+      "pattern": "\\bprompt\\s*engineering\\b",
+      "category": "Machine Learning",
+      "subcategory": "LLM",
+      "confidence": 0.95,
+      "aliases": []
+    },
+    {
+      "skill": "RAG",
+      "pattern": "\\b(rag|retrieval[\\s-]?augmented)\\b",
+      "category": "Machine Learning",
+      "subcategory": "LLM",
+      "confidence": 0.95,
+      "aliases": [
+        "Retrieval Augmented Generation"
+      ]
+    },
+    {
+      "skill": "Vector Database",
+      "pattern": "\\bvector\\s*(database|db|store)\\b",
+      "category": "Machine Learning",
+      "subcategory": "LLM",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "Embeddings",
+      "pattern": "\\bembeddings?\\b",
+      "category": "Machine Learning",
+      "subcategory": "Technique",
+      "confidence": 0.85,
+      "aliases": []
+    },
+    {
+      "skill": "Recommendation Systems",
+      "pattern": "\\brecommend(ation|er)\\s*system\\b",
+      "category": "Machine Learning",
+      "subcategory": "Application",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "Anomaly Detection",
+      "pattern": "\\banomaly\\s*detection\\b",
+      "category": "Machine Learning",
+      "subcategory": "Application",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "iOS Development",
+      "pattern": "\\bios\\b",
+      "category": "Mobile Development",
+      "subcategory": "Platform",
+      "confidence": 0.85,
+      "aliases": []
+    },
+    {
+      "skill": "Android Development",
+      "pattern": "\\bandroid\\b",
+      "category": "Mobile Development",
+      "subcategory": "Platform",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "Swift",
+      "pattern": "\\bswift\\b",
+      "category": "Mobile Development",
+      "subcategory": "Language",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "Objective-C",
+      "pattern": "\\bobjective[\\s-]?c\\b",
+      "category": "Mobile Development",
+      "subcategory": "Language",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "Kotlin",
+      "pattern": "\\bkotlin\\b",
+      "category": "Mobile Development",
+      "subcategory": "Language",
+      "confidence": 0.95,
+      "aliases": []
+    },
+    {
+      "skill": "Dart",
+      "pattern": "\\bdart\\b",
+      "category": "Mobile Development",
+      "subcategory": "Language",
+      "confidence": 0.85,
+      "aliases": []
+    },
+    {
+      "skill": "Flutter",
+      "pattern": "\\bflutter\\b",
+      "category": "Mobile Development",
+      "subcategory": "Cross-Platform",
+      "confidence": 0.95,
+      "aliases": []
+    },
+    {
+      "skill": "React Native",
+      "pattern": "\\breact\\s*native\\b",
+      "category": "Mobile Development",
+      "subcategory": "Cross-Platform",
+      "confidence": 0.95,
+      "aliases": []
+    },
+    {
+      "skill": "Xamarin",
+      "pattern": "\\bxamarin\\b",
+      "category": "Mobile Development",
+      "subcategory": "Cross-Platform",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "Ionic",
+      "pattern": "\\bionic\\b",
+      "category": "Mobile Development",
+      "subcategory": "Cross-Platform",
+      "confidence": 0.85,
+      "aliases": []
+    },
+    {
+      "skill": "Expo",
+      "pattern": "\\bexpo\\b",
+      "category": "Mobile Development",
+      "subcategory": "Cross-Platform",
+      "confidence": 0.85,
+      "aliases": []
+    },
+    {
+      "skill": "SwiftUI",
+      "pattern": "\\bswiftui\\b",
+      "category": "Mobile Development",
+      "subcategory": "iOS Framework",
+      "confidence": 0.95,
+      "aliases": []
+    },
+    {
+      "skill": "UIKit",
+      "pattern": "\\buikit\\b",
+      "category": "Mobile Development",
+      "subcategory": "iOS Framework",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "Core Data",
+      "pattern": "\\bcore\\s*data\\b",
+      "category": "Mobile Development",
+      "subcategory": "iOS Framework",
+      "confidence": 0.85,
+      "aliases": []
+    },
+    {
+      "skill": "Jetpack Compose",
+      "pattern": "\\b(jetpack\\s*)?compose\\b",
+      "category": "Mobile Development",
+      "subcategory": "Android Framework",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "Android Jetpack",
+      "pattern": "\\bjetpack\\b",
+      "category": "Mobile Development",
+      "subcategory": "Android Framework",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "Xcode",
+      "pattern": "\\bxcode\\b",
+      "category": "Mobile Development",
+      "subcategory": "IDE",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "Android Studio",
+      "pattern": "\\bandroid\\s*studio\\b",
+      "category": "Mobile Development",
+      "subcategory": "IDE",
+      "confidence": 0.95,
+      "aliases": []
+    },
+    {
+      "skill": "Firebase",
+      "pattern": "\\bfirebase\\b",
+      "category": "Mobile Development",
+      "subcategory": "Backend",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "Push Notifications",
+      "pattern": "\\bpush\\s*notification\\b",
+      "category": "Mobile Development",
+      "subcategory": "Feature",
+      "confidence": 0.85,
+      "aliases": []
+    },
+    {
+      "skill": "App Store",
+      "pattern": "\\bapp\\s*store\\b",
+      "category": "Mobile Development",
+      "subcategory": "Distribution",
+      "confidence": 0.8,
+      "aliases": []
+    },
+    {
+      "skill": "Google Play",
+      "pattern": "\\bgoogle\\s*play\\b",
+      "category": "Mobile Development",
+      "subcategory": "Distribution",
+      "confidence": 0.85,
+      "aliases": []
+    },
+    {
+      "skill": "Mobile UI/UX",
+      "pattern": "\\bmobile\\s*(ui|ux)\\b",
+      "category": "Mobile Development",
+      "subcategory": "Design",
+      "confidence": 0.85,
+      "aliases": []
+    },
+    {
+      "skill": "Material Design",
+      "pattern": "\\bmaterial\\s*design\\b",
+      "category": "Mobile Development",
+      "subcategory": "Design",
+      "confidence": 0.85,
+      "aliases": []
+    },
+    {
+      "skill": "Python",
+      "pattern": "\\bpython\\b",
+      "category": "Python",
+      "subcategory": "Core Language",
+      "confidence": 0.95,
+      "aliases": [
+        "Python 3",
+        "Python3"
+      ]
+    },
+    {
+      "skill": "Django",
+      "pattern": "\\bdjango\\b",
+      "category": "Python",
+      "subcategory": "Web Framework",
+      "confidence": 0.95,
+      "aliases": [
+        "Django REST"
+      ]
+    },
+    {
+      "skill": "Flask",
+      "pattern": "\\bflask\\b",
+      "category": "Python",
+      "subcategory": "Web Framework",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "FastAPI",
+      "pattern": "\\bfastapi\\b",
+      "category": "Python",
+      "subcategory": "Web Framework",
+      "confidence": 0.95,
+      "aliases": [
+        "Fast API"
+      ]
+    },
+    {
+      "skill": "Pandas",
+      "pattern": "\\bpandas\\b",
+      "category": "Python",
+      "subcategory": "Data Analysis",
+      "confidence": 0.95,
+      "aliases": []
+    },
+    {
+      "skill": "NumPy",
+      "pattern": "\\bnumpy\\b",
+      "category": "Python",
+      "subcategory": "Scientific Computing",
+      "confidence": 0.95,
+      "aliases": []
+    },
+    {
+      "skill": "SciPy",
+      "pattern": "\\bscipy\\b",
+      "category": "Python",
+      "subcategory": "Scientific Computing",
+      "confidence": 0.95,
+      "aliases": []
+    },
+    {
+      "skill": "PyTorch",
+      "pattern": "\\bpytorch\\b",
+      "category": "Python",
+      "subcategory": "Machine Learning",
+      "confidence": 0.95,
+      "aliases": []
+    },
+    {
+      "skill": "TensorFlow",
+      "pattern": "\\btensorflow\\b",
+      "category": "Python",
+      "subcategory": "Machine Learning",
+      "confidence": 0.95,
+      "aliases": [
+        "TF"
+      ]
+    },
+    {
+      "skill": "Keras",
+      "pattern": "\\bkeras\\b",
+      "category": "Python",
+      "subcategory": "Machine Learning",
+      "confidence": 0.95,
+      "aliases": []
+    },
+    {
+      "skill": "Scikit-learn",
+      "pattern": "\\b(scikit-learn|sklearn)\\b",
+      "category": "Python",
+      "subcategory": "Machine Learning",
+      "confidence": 0.95,
+      "aliases": [
+        "sklearn"
+      ]
+    },
+    {
+      "skill": "Matplotlib",
+      "pattern": "\\bmatplotlib\\b",
+      "category": "Python",
+      "subcategory": "Visualization",
+      "confidence": 0.95,
+      "aliases": []
+    },
+    {
+      "skill": "Seaborn",
+      "pattern": "\\bseaborn\\b",
+      "category": "Python",
+      "subcategory": "Visualization",
+      "confidence": 0.95,
+      "aliases": []
+    },
+    {
+      "skill": "Plotly",
+      "pattern": "\\bplotly\\b",
+      "category": "Python",
+      "subcategory": "Visualization",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "Jupyter",
+      "pattern": "\\bjupyter\\b",
+      "category": "Python",
+      "subcategory": "Development Environment",
+      "confidence": 0.9,
+      "aliases": [
+        "Jupyter Notebook",
+        "JupyterLab"
+      ]
+    },
+    {
+      "skill": "PySpark",
+      "pattern": "\\bpyspark\\b",
+      "category": "Python",
+      "subcategory": "Big Data",
+      "confidence": 0.95,
+      "aliases": []
+    },
+    {
+      "skill": "Celery",
+      "pattern": "\\bcelery\\b",
+      "category": "Python",
+      "subcategory": "Task Queue",
+      "confidence": 0.85,
+      "aliases": []
+    },
+    {
+      "skill": "SQLAlchemy",
+      "pattern": "\\bsqlalchemy\\b",
+      "category": "Python",
+      "subcategory": "ORM",
+      "confidence": 0.95,
+      "aliases": []
+    },
+    {
+      "skill": "Pydantic",
+      "pattern": "\\bpydantic\\b",
+      "category": "Python",
+      "subcategory": "Data Validation",
+      "confidence": 0.95,
+      "aliases": []
+    },
+    {
+      "skill": "Boto3",
+      "pattern": "\\bboto3\\b",
+      "category": "Python",
+      "subcategory": "AWS SDK",
+      "confidence": 0.95,
+      "aliases": []
+    },
+    {
+      "skill": "Airflow",
+      "pattern": "\\bairflow\\b",
+      "category": "Python",
+      "subcategory": "Workflow Orchestration",
+      "confidence": 0.95,
+      "aliases": [
+        "Apache Airflow"
+      ]
+    },
+    {
+      "skill": "Luigi",
+      "pattern": "\\bluigi\\b",
+      "category": "Python",
+      "subcategory": "Workflow Orchestration",
+      "confidence": 0.85,
+      "aliases": []
+    },
+    {
+      "skill": "Prefect",
+      "pattern": "\\bprefect\\b",
+      "category": "Python",
+      "subcategory": "Workflow Orchestration",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "Dagster",
+      "pattern": "\\bdagster\\b",
+      "category": "Python",
+      "subcategory": "Workflow Orchestration",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "Streamlit",
+      "pattern": "\\bstreamlit\\b",
+      "category": "Python",
+      "subcategory": "Dashboard",
+      "confidence": 0.95,
+      "aliases": []
+    },
+    {
+      "skill": "Gradio",
+      "pattern": "\\bgradio\\b",
+      "category": "Python",
+      "subcategory": "ML Interface",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "Beautiful Soup",
+      "pattern": "\\b(beautifulsoup|beautiful soup|bs4)\\b",
+      "category": "Python",
+      "subcategory": "Web Scraping",
+      "confidence": 0.9,
+      "aliases": [
+        "BeautifulSoup"
+      ]
+    },
+    {
+      "skill": "Scrapy",
+      "pattern": "\\bscrapy\\b",
+      "category": "Python",
+      "subcategory": "Web Scraping",
+      "confidence": 0.95,
+      "aliases": []
+    },
+    {
+      "skill": "pytest",
+      "pattern": "\\bpytest\\b",
+      "category": "Python",
+      "subcategory": "Testing",
+      "confidence": 0.95,
+      "aliases": []
+    },
+    {
+      "skill": "unittest",
+      "pattern": "\\bunittest\\b",
+      "category": "Python",
+      "subcategory": "Testing",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "Poetry",
+      "pattern": "\\bpoetry\\b",
+      "category": "Python",
+      "subcategory": "Package Management",
+      "confidence": 0.8,
+      "aliases": []
+    },
+    {
+      "skill": "Conda",
+      "pattern": "\\bconda\\b",
+      "category": "Python",
+      "subcategory": "Environment Management",
+      "confidence": 0.9,
+      "aliases": [
+        "Anaconda",
+        "Miniconda"
+      ]
+    },
+    {
+      "skill": "NLTK",
+      "pattern": "\\bnltk\\b",
+      "category": "Python",
+      "subcategory": "NLP",
+      "confidence": 0.95,
+      "aliases": []
+    },
+    {
+      "skill": "spaCy",
+      "pattern": "\\bspacy\\b",
+      "category": "Python",
+      "subcategory": "NLP",
+      "confidence": 0.95,
+      "aliases": []
+    },
+    {
+      "skill": "Gensim",
+      "pattern": "\\bgensim\\b",
+      "category": "Python",
+      "subcategory": "NLP",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "OpenCV",
+      "pattern": "\\b(opencv|cv2)\\b",
+      "category": "Python",
+      "subcategory": "Computer Vision",
+      "confidence": 0.95,
+      "aliases": [
+        "CV2"
+      ]
+    },
+    {
+      "skill": "Dask",
+      "pattern": "\\bdask\\b",
+      "category": "Python",
+      "subcategory": "Parallel Computing",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "Ray",
+      "pattern": "\\bray\\b",
+      "category": "Python",
+      "subcategory": "Distributed Computing",
+      "confidence": 0.8,
+      "aliases": []
+    },
+    {
+      "skill": "Hugging Face",
+      "pattern": "\\b(hugg?ing\\s*face|transformers)\\b",
+      "category": "Python",
+      "subcategory": "NLP/ML",
+      "confidence": 0.9,
+      "aliases": [
+        "HuggingFace"
+      ]
+    },
+    {
+      "skill": "LangChain",
+      "pattern": "\\blangchain\\b",
+      "category": "Python",
+      "subcategory": "LLM Framework",
+      "confidence": 0.95,
+      "aliases": []
+    },
+    {
+      "skill": "LlamaIndex",
+      "pattern": "\\bllamaindex\\b",
+      "category": "Python",
+      "subcategory": "LLM Framework",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "Communication",
+      "pattern": "\\bcommunication\\b",
+      "category": "Soft Skills",
+      "subcategory": "Interpersonal",
+      "confidence": 0.85,
+      "aliases": []
+    },
+    {
+      "skill": "Leadership",
+      "pattern": "\\bleadership\\b",
+      "category": "Soft Skills",
+      "subcategory": "Management",
+      "confidence": 0.85,
+      "aliases": []
+    },
+    {
+      "skill": "Team Leadership",
+      "pattern": "\\bteam\\s*lead\\b",
+      "category": "Soft Skills",
+      "subcategory": "Management",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "Teamwork",
+      "pattern": "\\bteamwork\\b",
+      "category": "Soft Skills",
+      "subcategory": "Collaboration",
+      "confidence": 0.85,
+      "aliases": []
+    },
+    {
+      "skill": "Collaboration",
+      "pattern": "\\bcollaboration\\b",
+      "category": "Soft Skills",
+      "subcategory": "Collaboration",
+      "confidence": 0.85,
+      "aliases": []
+    },
+    {
+      "skill": "Cross-functional Collaboration",
+      "pattern": "\\bcross[\\s-]?functional\\b",
+      "category": "Soft Skills",
+      "subcategory": "Collaboration",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "Problem Solving",
+      "pattern": "\\bproblem[\\s-]?solv(ing|er)\\b",
+      "category": "Soft Skills",
+      "subcategory": "Cognitive",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "Analytical Skills",
+      "pattern": "\\banalytical\\b",
+      "category": "Soft Skills",
+      "subcategory": "Cognitive",
+      "confidence": 0.85,
+      "aliases": []
+    },
+    {
+      "skill": "Critical Thinking",
+      "pattern": "\\bcritical\\s*thinking\\b",
+      "category": "Soft Skills",
+      "subcategory": "Cognitive",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "Decision Making",
+      "pattern": "\\bdecision[\\s-]?making\\b",
+      "category": "Soft Skills",
+      "subcategory": "Cognitive",
+      "confidence": 0.85,
+      "aliases": []
+    },
+    {
+      "skill": "Time Management",
+      "pattern": "\\btime\\s*management\\b",
+      "category": "Soft Skills",
+      "subcategory": "Organization",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "Project Management",
+      "pattern": "\\bproject\\s*management\\b",
+      "category": "Soft Skills",
+      "subcategory": "Management",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "Agile",
+      "pattern": "\\bagile\\b",
+      "category": "Soft Skills",
+      "subcategory": "Methodology",
+      "confidence": 0.85,
+      "aliases": []
+    },
+    {
+      "skill": "Scrum",
+      "pattern": "\\bscrum\\b",
+      "category": "Soft Skills",
+      "subcategory": "Methodology",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "Kanban",
+      "pattern": "\\bkanban\\b",
+      "category": "Soft Skills",
+      "subcategory": "Methodology",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "Stakeholder Management",
+      "pattern": "\\bstakeholder\\b",
+      "category": "Soft Skills",
+      "subcategory": "Management",
+      "confidence": 0.85,
+      "aliases": []
+    },
+    {
+      "skill": "Presentation Skills",
+      "pattern": "\\bpresentation\\b",
+      "category": "Soft Skills",
+      "subcategory": "Communication",
+      "confidence": 0.8,
+      "aliases": []
+    },
+    {
+      "skill": "Mentoring",
+      "pattern": "\\bmentor(ing)?\\b",
+      "category": "Soft Skills",
+      "subcategory": "Development",
+      "confidence": 0.85,
+      "aliases": []
+    },
+    {
+      "skill": "Coaching",
+      "pattern": "\\bcoaching\\b",
+      "category": "Soft Skills",
+      "subcategory": "Development",
+      "confidence": 0.85,
+      "aliases": []
+    },
+    {
+      "skill": "Adaptability",
+      "pattern": "\\badaptab(ility|le)\\b",
+      "category": "Soft Skills",
+      "subcategory": "Personal",
+      "confidence": 0.85,
+      "aliases": []
+    },
+    {
+      "skill": "Creativity",
+      "pattern": "\\bcreativi?ty\\b",
+      "category": "Soft Skills",
+      "subcategory": "Personal",
+      "confidence": 0.8,
+      "aliases": []
+    },
+    {
+      "skill": "Innovation",
+      "pattern": "\\binnovat(ion|ive)\\b",
+      "category": "Soft Skills",
+      "subcategory": "Personal",
+      "confidence": 0.8,
+      "aliases": []
+    },
+    {
+      "skill": "Attention to Detail",
+      "pattern": "\\battention\\s*to\\s*detail\\b",
+      "category": "Soft Skills",
+      "subcategory": "Personal",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "Self-Motivated",
+      "pattern": "\\bself[\\s-]?motivat\\b",
+      "category": "Soft Skills",
+      "subcategory": "Personal",
+      "confidence": 0.85,
+      "aliases": []
+    },
+    {
+      "skill": "Documentation",
+      "pattern": "\\bdocumentation\\b",
+      "category": "Soft Skills",
+      "subcategory": "Technical Writing",
+      "confidence": 0.8,
+      "aliases": []
+    },
+    {
+      "skill": "Technical Writing",
+      "pattern": "\\btechnical\\s*writing\\b",
+      "category": "Soft Skills",
+      "subcategory": "Technical Writing",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "Requirements Gathering",
+      "pattern": "\\brequirements\\b",
+      "category": "Soft Skills",
+      "subcategory": "Analysis",
+      "confidence": 0.8,
+      "aliases": []
+    },
+    {
+      "skill": "Business Analysis",
+      "pattern": "\\bbusiness\\s*analysis\\b",
+      "category": "Soft Skills",
+      "subcategory": "Analysis",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "Software Testing",
+      "pattern": "\\b(software\\s*)?testing\\b",
+      "category": "Testing & QA",
+      "subcategory": "Core",
+      "confidence": 0.8,
+      "aliases": []
+    },
+    {
+      "skill": "Quality Assurance",
+      "pattern": "\\b(quality\\s*assurance|qa)\\b",
+      "category": "Testing & QA",
+      "subcategory": "Core",
+      "confidence": 0.9,
+      "aliases": [
+        "QA"
+      ]
+    },
+    {
+      "skill": "Unit Testing",
+      "pattern": "\\bunit\\s*test\\b",
+      "category": "Testing & QA",
+      "subcategory": "Testing Type",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "Integration Testing",
+      "pattern": "\\bintegration\\s*test\\b",
+      "category": "Testing & QA",
+      "subcategory": "Testing Type",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "End-to-End Testing",
+      "pattern": "\\b(end[\\s-]?to[\\s-]?end|e2e)\\b",
+      "category": "Testing & QA",
+      "subcategory": "Testing Type",
+      "confidence": 0.9,
+      "aliases": [
+        "E2E"
+      ]
+    },
+    {
+      "skill": "Functional Testing",
+      "pattern": "\\bfunctional\\s*test\\b",
+      "category": "Testing & QA",
+      "subcategory": "Testing Type",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "Regression Testing",
+      "pattern": "\\bregression\\s*test\\b",
+      "category": "Testing & QA",
+      "subcategory": "Testing Type",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "Performance Testing",
+      "pattern": "\\bperformance\\s*test\\b",
+      "category": "Testing & QA",
+      "subcategory": "Testing Type",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "Load Testing",
+      "pattern": "\\bload\\s*test\\b",
+      "category": "Testing & QA",
+      "subcategory": "Performance",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "Security Testing",
+      "pattern": "\\bsecurity\\s*test\\b",
+      "category": "Testing & QA",
+      "subcategory": "Security",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "Test Automation",
+      "pattern": "\\b(test\\s*)?automation\\b",
+      "category": "Testing & QA",
+      "subcategory": "Automation",
+      "confidence": 0.85,
+      "aliases": []
+    },
+    {
+      "skill": "Selenium",
+      "pattern": "\\bselenium\\b",
+      "category": "Testing & QA",
+      "subcategory": "Automation Tool",
+      "confidence": 0.95,
+      "aliases": []
+    },
+    {
+      "skill": "Cypress",
+      "pattern": "\\bcypress\\b",
+      "category": "Testing & QA",
+      "subcategory": "Automation Tool",
+      "confidence": 0.95,
+      "aliases": []
+    },
+    {
+      "skill": "Playwright",
+      "pattern": "\\bplaywright\\b",
+      "category": "Testing & QA",
+      "subcategory": "Automation Tool",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "Appium",
+      "pattern": "\\bappium\\b",
+      "category": "Testing & QA",
+      "subcategory": "Mobile Testing",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "Jest",
+      "pattern": "\\bjest\\b",
+      "category": "Testing & QA",
+      "subcategory": "Unit Testing Tool",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "JUnit",
+      "pattern": "\\bjunit\\b",
+      "category": "Testing & QA",
+      "subcategory": "Unit Testing Tool",
+      "confidence": 0.95,
+      "aliases": []
+    },
+    {
+      "skill": "TestNG",
+      "pattern": "\\btestng\\b",
+      "category": "Testing & QA",
+      "subcategory": "Unit Testing Tool",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "pytest",
+      "pattern": "\\bpytest\\b",
+      "category": "Testing & QA",
+      "subcategory": "Unit Testing Tool",
+      "confidence": 0.95,
+      "aliases": []
+    },
+    {
+      "skill": "Cucumber",
+      "pattern": "\\bcucumber\\b",
+      "category": "Testing & QA",
+      "subcategory": "BDD Tool",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "BDD",
+      "pattern": "\\b(bdd|behavior[\\s-]?driven)\\b",
+      "category": "Testing & QA",
+      "subcategory": "Methodology",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "TDD",
+      "pattern": "\\b(tdd|test[\\s-]?driven)\\b",
+      "category": "Testing & QA",
+      "subcategory": "Methodology",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "Test Cases",
+      "pattern": "\\btest\\s*cases?\\b",
+      "category": "Testing & QA",
+      "subcategory": "Documentation",
+      "confidence": 0.85,
+      "aliases": []
+    },
+    {
+      "skill": "Test Plans",
+      "pattern": "\\btest\\s*plan\\b",
+      "category": "Testing & QA",
+      "subcategory": "Documentation",
+      "confidence": 0.85,
+      "aliases": []
+    },
+    {
+      "skill": "JIRA",
+      "pattern": "\\bjira\\b",
+      "category": "Testing & QA",
+      "subcategory": "Tool",
+      "confidence": 0.85,
+      "aliases": []
+    },
+    {
+      "skill": "API Testing",
+      "pattern": "\\bapi\\s*test\\b",
+      "category": "Testing & QA",
+      "subcategory": "Testing Type",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "Postman",
+      "pattern": "\\bpostman\\b",
+      "category": "Testing & QA",
+      "subcategory": "API Tool",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "JMeter",
+      "pattern": "\\bjmeter\\b",
+      "category": "Testing & QA",
+      "subcategory": "Performance Tool",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "Gatling",
+      "pattern": "\\bgatling\\b",
+      "category": "Testing & QA",
+      "subcategory": "Performance Tool",
+      "confidence": 0.85,
+      "aliases": []
+    },
+    {
+      "skill": "Code Coverage",
+      "pattern": "\\bcode\\s*coverage\\b",
+      "category": "Testing & QA",
+      "subcategory": "Metrics",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "Manual Testing",
+      "pattern": "\\bmanual\\s*test\\b",
+      "category": "Testing & QA",
+      "subcategory": "Testing Type",
+      "confidence": 0.85,
+      "aliases": []
+    },
+    {
+      "skill": "JavaScript",
+      "pattern": "\\bjavascript\\b",
+      "category": "Web Development",
+      "subcategory": "Language",
+      "confidence": 0.95,
+      "aliases": [
+        "JS",
+        "ES6"
+      ]
+    },
+    {
+      "skill": "TypeScript",
+      "pattern": "\\btypescript\\b",
+      "category": "Web Development",
+      "subcategory": "Language",
+      "confidence": 0.95,
+      "aliases": [
+        "TS"
+      ]
+    },
+    {
+      "skill": "HTML",
+      "pattern": "\\bhtml\\b",
+      "category": "Web Development",
+      "subcategory": "Markup",
+      "confidence": 0.9,
+      "aliases": [
+        "HTML5"
+      ]
+    },
+    {
+      "skill": "CSS",
+      "pattern": "\\bcss\\b",
+      "category": "Web Development",
+      "subcategory": "Styling",
+      "confidence": 0.9,
+      "aliases": [
+        "CSS3"
+      ]
+    },
+    {
+      "skill": "React",
+      "pattern": "\\breact(js)?\\b",
+      "category": "Web Development",
+      "subcategory": "Frontend Framework",
+      "confidence": 0.95,
+      "aliases": [
+        "ReactJS"
+      ]
+    },
+    {
+      "skill": "Angular",
+      "pattern": "\\bangular\\b",
+      "category": "Web Development",
+      "subcategory": "Frontend Framework",
+      "confidence": 0.95,
+      "aliases": [
+        "AngularJS"
+      ]
+    },
+    {
+      "skill": "Vue.js",
+      "pattern": "\\bvue(\\.?js)?\\b",
+      "category": "Web Development",
+      "subcategory": "Frontend Framework",
+      "confidence": 0.95,
+      "aliases": [
+        "Vue"
+      ]
+    },
+    {
+      "skill": "Svelte",
+      "pattern": "\\bsvelte\\b",
+      "category": "Web Development",
+      "subcategory": "Frontend Framework",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "Next.js",
+      "pattern": "\\bnext(\\.?js)?\\b",
+      "category": "Web Development",
+      "subcategory": "Framework",
+      "confidence": 0.95,
+      "aliases": [
+        "NextJS"
+      ]
+    },
+    {
+      "skill": "Nuxt.js",
+      "pattern": "\\bnuxt\\b",
+      "category": "Web Development",
+      "subcategory": "Framework",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "Node.js",
+      "pattern": "\\bnode(\\.?js)?\\b",
+      "category": "Web Development",
+      "subcategory": "Runtime",
+      "confidence": 0.95,
+      "aliases": [
+        "NodeJS"
+      ]
+    },
+    {
+      "skill": "Express.js",
+      "pattern": "\\bexpress(\\.?js)?\\b",
+      "category": "Web Development",
+      "subcategory": "Backend Framework",
+      "confidence": 0.9,
+      "aliases": [
+        "Express"
+      ]
+    },
+    {
+      "skill": "NestJS",
+      "pattern": "\\bnestjs\\b",
+      "category": "Web Development",
+      "subcategory": "Backend Framework",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "PHP",
+      "pattern": "\\bphp\\b",
+      "category": "Web Development",
+      "subcategory": "Language",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "Laravel",
+      "pattern": "\\blaravel\\b",
+      "category": "Web Development",
+      "subcategory": "PHP Framework",
+      "confidence": 0.95,
+      "aliases": []
+    },
+    {
+      "skill": "Ruby on Rails",
+      "pattern": "\\b(rails|ruby\\s*on\\s*rails)\\b",
+      "category": "Web Development",
+      "subcategory": "Framework",
+      "confidence": 0.95,
+      "aliases": [
+        "Rails"
+      ]
+    },
+    {
+      "skill": "ASP.NET",
+      "pattern": "\\basp\\.?net\\b",
+      "category": "Web Development",
+      "subcategory": "Framework",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": ".NET Core",
+      "pattern": "\\b\\.?net\\s*core\\b",
+      "category": "Web Development",
+      "subcategory": "Framework",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "C#",
+      "pattern": "\\bc#\\b",
+      "category": "Web Development",
+      "subcategory": "Language",
+      "confidence": 0.9,
+      "aliases": [
+        "CSharp"
+      ]
+    },
+    {
+      "skill": "Redux",
+      "pattern": "\\bredux\\b",
+      "category": "Web Development",
+      "subcategory": "State Management",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "GraphQL",
+      "pattern": "\\bgraphql\\b",
+      "category": "Web Development",
+      "subcategory": "API",
+      "confidence": 0.95,
+      "aliases": []
+    },
+    {
+      "skill": "REST API",
+      "pattern": "\\brest\\s*api\\b",
+      "category": "Web Development",
+      "subcategory": "API",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "WebSocket",
+      "pattern": "\\bwebsocket\\b",
+      "category": "Web Development",
+      "subcategory": "Real-time",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "Sass",
+      "pattern": "\\b(sass|scss)\\b",
+      "category": "Web Development",
+      "subcategory": "CSS Preprocessor",
+      "confidence": 0.9,
+      "aliases": [
+        "SCSS"
+      ]
+    },
+    {
+      "skill": "Tailwind CSS",
+      "pattern": "\\btailwind\\b",
+      "category": "Web Development",
+      "subcategory": "CSS Framework",
+      "confidence": 0.95,
+      "aliases": [
+        "Tailwind"
+      ]
+    },
+    {
+      "skill": "Bootstrap",
+      "pattern": "\\bbootstrap\\b",
+      "category": "Web Development",
+      "subcategory": "CSS Framework",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "Material UI",
+      "pattern": "\\bmaterial\\s*(ui)?\\b",
+      "category": "Web Development",
+      "subcategory": "Component Library",
+      "confidence": 0.85,
+      "aliases": [
+        "MUI"
+      ]
+    },
+    {
+      "skill": "Webpack",
+      "pattern": "\\bwebpack\\b",
+      "category": "Web Development",
+      "subcategory": "Build Tool",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "Vite",
+      "pattern": "\\bvite\\b",
+      "category": "Web Development",
+      "subcategory": "Build Tool",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "npm",
+      "pattern": "\\bnpm\\b",
+      "category": "Web Development",
+      "subcategory": "Package Manager",
+      "confidence": 0.85,
+      "aliases": []
+    },
+    {
+      "skill": "Yarn",
+      "pattern": "\\byarn\\b",
+      "category": "Web Development",
+      "subcategory": "Package Manager",
+      "confidence": 0.85,
+      "aliases": []
+    },
+    {
+      "skill": "Jest",
+      "pattern": "\\bjest\\b",
+      "category": "Web Development",
+      "subcategory": "Testing",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "Cypress",
+      "pattern": "\\bcypress\\b",
+      "category": "Web Development",
+      "subcategory": "E2E Testing",
+      "confidence": 0.95,
+      "aliases": []
+    },
+    {
+      "skill": "Playwright",
+      "pattern": "\\bplaywright\\b",
+      "category": "Web Development",
+      "subcategory": "E2E Testing",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "OAuth",
+      "pattern": "\\boauth\\b",
+      "category": "Web Development",
+      "subcategory": "Authentication",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "JWT",
+      "pattern": "\\bjwt\\b",
+      "category": "Web Development",
+      "subcategory": "Authentication",
+      "confidence": 0.9,
+      "aliases": []
+    },
+    {
+      "skill": "WordPress",
+      "pattern": "\\bwordpress\\b",
+      "category": "Web Development",
+      "subcategory": "CMS",
+      "confidence": 0.85,
+      "aliases": []
+    },
+    {
+      "skill": "SEO",
+      "pattern": "\\bseo\\b",
+      "category": "Web Development",
+      "subcategory": "Optimization",
+      "confidence": 0.85,
+      "aliases": []
+    },
+    {
+      "skill": "Responsive Design",
+      "pattern": "\\bresponsive\\s*design\\b",
+      "category": "Web Development",
+      "subcategory": "Design",
+      "confidence": 0.85,
+      "aliases": []
+    }
+  ]
+}

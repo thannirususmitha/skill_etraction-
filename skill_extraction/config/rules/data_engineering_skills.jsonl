@@ -1,0 +1,38 @@
+{"skill": "Data Engineering", "pattern": "\\bdata\\s*engineering\\b", "category": "Data Engineering", "subcategory": "Core", "confidence": 0.95, "aliases": ["Data Engineer"]}
+{"skill": "Data Pipeline", "pattern": "\\bdata\\s*pipeline\\b", "category": "Data Engineering", "subcategory": "Architecture", "confidence": 0.95, "aliases": []}
+{"skill": "Apache Spark", "pattern": "\\bspark\\b", "category": "Data Engineering", "subcategory": "Processing", "confidence": 0.95, "aliases": ["Spark"]}
+{"skill": "PySpark", "pattern": "\\bpyspark\\b", "category": "Data Engineering", "subcategory": "Processing", "confidence": 0.95, "aliases": []}
+{"skill": "Apache Beam", "pattern": "\\bbeam\\b", "category": "Data Engineering", "subcategory": "Processing", "confidence": 0.90, "aliases": []}
+{"skill": "Apache Kafka", "pattern": "\\bkafka\\b", "category": "Data Engineering", "subcategory": "Streaming", "confidence": 0.95, "aliases": ["Kafka"]}
+{"skill": "Kafka Streams", "pattern": "\\bkafka\\s*streams\\b", "category": "Data Engineering", "subcategory": "Streaming", "confidence": 0.90, "aliases": []}
+{"skill": "Apache Flink", "pattern": "\\bflink\\b", "category": "Data Engineering", "subcategory": "Streaming", "confidence": 0.90, "aliases": []}
+{"skill": "Apache Airflow", "pattern": "\\bairflow\\b", "category": "Data Engineering", "subcategory": "Orchestration", "confidence": 0.95, "aliases": ["Airflow"]}
+{"skill": "Dagster", "pattern": "\\bdagster\\b", "category": "Data Engineering", "subcategory": "Orchestration", "confidence": 0.90, "aliases": []}
+{"skill": "Prefect", "pattern": "\\bprefect\\b", "category": "Data Engineering", "subcategory": "Orchestration", "confidence": 0.90, "aliases": []}
+{"skill": "Luigi", "pattern": "\\bluigi\\b", "category": "Data Engineering", "subcategory": "Orchestration", "confidence": 0.85, "aliases": []}
+{"skill": "Apache NiFi", "pattern": "\\bnifi\\b", "category": "Data Engineering", "subcategory": "Integration", "confidence": 0.90, "aliases": []}
+{"skill": "Fivetran", "pattern": "\\bfivetran\\b", "category": "Data Engineering", "subcategory": "Integration", "confidence": 0.90, "aliases": []}
+{"skill": "Airbyte", "pattern": "\\bairbyte\\b", "category": "Data Engineering", "subcategory": "Integration", "confidence": 0.90, "aliases": []}
+{"skill": "Talend", "pattern": "\\btalend\\b", "category": "Data Engineering", "subcategory": "Integration", "confidence": 0.90, "aliases": []}
+{"skill": "Informatica", "pattern": "\\binformatica\\b", "category": "Data Engineering", "subcategory": "Integration", "confidence": 0.90, "aliases": []}
+{"skill": "Databricks", "pattern": "\\bdatabricks\\b", "category": "Data Engineering", "subcategory": "Platform", "confidence": 0.95, "aliases": []}
+{"skill": "Delta Lake", "pattern": "\\bdelta\\s*lake\\b", "category": "Data Engineering", "subcategory": "Storage Format", "confidence": 0.95, "aliases": []}
+{"skill": "Apache Iceberg", "pattern": "\\biceberg\\b", "category": "Data Engineering", "subcategory": "Storage Format", "confidence": 0.90, "aliases": []}
+{"skill": "Apache Parquet", "pattern": "\\bparquet\\b", "category": "Data Engineering", "subcategory": "File Format", "confidence": 0.90, "aliases": []}
+{"skill": "Apache Avro", "pattern": "\\bavro\\b", "category": "Data Engineering", "subcategory": "File Format", "confidence": 0.90, "aliases": []}
+{"skill": "Data Lake", "pattern": "\\bdata\\s*lake\\b", "category": "Data Engineering", "subcategory": "Architecture", "confidence": 0.95, "aliases": []}
+{"skill": "Data Lakehouse", "pattern": "\\blakehouse\\b", "category": "Data Engineering", "subcategory": "Architecture", "confidence": 0.95, "aliases": []}
+{"skill": "Data Warehouse", "pattern": "\\bdata\\s*warehouse\\b", "category": "Data Engineering", "subcategory": "Architecture", "confidence": 0.95, "aliases": []}
+{"skill": "Medallion Architecture", "pattern": "\\bmedallion\\b", "category": "Data Engineering", "subcategory": "Architecture", "confidence": 0.90, "aliases": []}
+{"skill": "ETL", "pattern": "\\betl\\b", "category": "Data Engineering", "subcategory": "Process", "confidence": 0.95, "aliases": []}
+{"skill": "ELT", "pattern": "\\belt\\b", "category": "Data Engineering", "subcategory": "Process", "confidence": 0.90, "aliases": []}
+{"skill": "Batch Processing", "pattern": "\\bbatch\\s*process\\b", "category": "Data Engineering", "subcategory": "Process", "confidence": 0.85, "aliases": []}
+{"skill": "Stream Processing", "pattern": "\\bstream\\s*process\\b", "category": "Data Engineering", "subcategory": "Process", "confidence": 0.90, "aliases": []}
+{"skill": "dbt", "pattern": "\\bdbt\\b", "category": "Data Engineering", "subcategory": "Transformation", "confidence": 0.95, "aliases": ["Data Build Tool"]}
+{"skill": "Hadoop", "pattern": "\\bhadoop\\b", "category": "Data Engineering", "subcategory": "Big Data", "confidence": 0.90, "aliases": []}
+{"skill": "HDFS", "pattern": "\\bhdfs\\b", "category": "Data Engineering", "subcategory": "Big Data", "confidence": 0.90, "aliases": []}
+{"skill": "Data Quality", "pattern": "\\bdata\\s*quality\\b", "category": "Data Engineering", "subcategory": "Governance", "confidence": 0.90, "aliases": []}
+{"skill": "Data Governance", "pattern": "\\bdata\\s*governance\\b", "category": "Data Engineering", "subcategory": "Governance", "confidence": 0.90, "aliases": []}
+{"skill": "Data Lineage", "pattern": "\\bdata\\s*lineage\\b", "category": "Data Engineering", "subcategory": "Governance", "confidence": 0.90, "aliases": []}
+{"skill": "CDC", "pattern": "\\b(cdc|change\\s*data\\s*capture)\\b", "category": "Data Engineering", "subcategory": "Pattern", "confidence": 0.90, "aliases": ["Change Data Capture"]}
+{"skill": "Debezium", "pattern": "\\bdebezium\\b", "category": "Data Engineering", "subcategory": "CDC", "confidence": 0.90, "aliases": []}

@@ -1,0 +1,40 @@
+{"skill": "Machine Learning", "pattern": "\\bmachine\\s*learning\\b", "category": "Machine Learning", "subcategory": "Core", "confidence": 0.95, "aliases": ["ML"]}
+{"skill": "Deep Learning", "pattern": "\\bdeep\\s*learning\\b", "category": "Machine Learning", "subcategory": "Core", "confidence": 0.95, "aliases": ["DL"]}
+{"skill": "Artificial Intelligence", "pattern": "\\b(artificial\\s*intelligence|\\bai\\b)\\b", "category": "Machine Learning", "subcategory": "Core", "confidence": 0.95, "aliases": ["AI"]}
+{"skill": "Neural Networks", "pattern": "\\bneural\\s*network\\b", "category": "Machine Learning", "subcategory": "Architecture", "confidence": 0.95, "aliases": ["NN"]}
+{"skill": "CNN", "pattern": "\\b(cnn|convolutional\\s*neural)\\b", "category": "Machine Learning", "subcategory": "Architecture", "confidence": 0.95, "aliases": ["Convolutional Neural Network"]}
+{"skill": "RNN", "pattern": "\\b(rnn|recurrent\\s*neural)\\b", "category": "Machine Learning", "subcategory": "Architecture", "confidence": 0.95, "aliases": ["Recurrent Neural Network"]}
+{"skill": "LSTM", "pattern": "\\blstm\\b", "category": "Machine Learning", "subcategory": "Architecture", "confidence": 0.95, "aliases": []}
+{"skill": "Transformer", "pattern": "\\btransformer\\b", "category": "Machine Learning", "subcategory": "Architecture", "confidence": 0.90, "aliases": []}
+{"skill": "BERT", "pattern": "\\bbert\\b", "category": "Machine Learning", "subcategory": "NLP Model", "confidence": 0.95, "aliases": []}
+{"skill": "GPT", "pattern": "\\bgpt\\b", "category": "Machine Learning", "subcategory": "NLP Model", "confidence": 0.95, "aliases": ["GPT-3", "GPT-4"]}
+{"skill": "Large Language Models", "pattern": "\\b(llm|large\\s*language\\s*model)\\b", "category": "Machine Learning", "subcategory": "NLP Model", "confidence": 0.95, "aliases": ["LLM"]}
+{"skill": "Generative AI", "pattern": "\\bgenerative\\s*ai\\b", "category": "Machine Learning", "subcategory": "Generative", "confidence": 0.95, "aliases": ["GenAI"]}
+{"skill": "GANs", "pattern": "\\b(gan|generative\\s*adversarial)\\b", "category": "Machine Learning", "subcategory": "Generative", "confidence": 0.90, "aliases": []}
+{"skill": "Supervised Learning", "pattern": "\\bsupervised\\s*learning\\b", "category": "Machine Learning", "subcategory": "Paradigm", "confidence": 0.90, "aliases": []}
+{"skill": "Unsupervised Learning", "pattern": "\\bunsupervised\\s*learning\\b", "category": "Machine Learning", "subcategory": "Paradigm", "confidence": 0.90, "aliases": []}
+{"skill": "Reinforcement Learning", "pattern": "\\breinforcement\\s*learning\\b", "category": "Machine Learning", "subcategory": "Paradigm", "confidence": 0.95, "aliases": ["RL"]}
+{"skill": "Transfer Learning", "pattern": "\\btransfer\\s*learning\\b", "category": "Machine Learning", "subcategory": "Technique", "confidence": 0.95, "aliases": []}
+{"skill": "Fine-Tuning", "pattern": "\\bfine[\\s-]?tun(e|ing)\\b", "category": "Machine Learning", "subcategory": "Technique", "confidence": 0.90, "aliases": []}
+{"skill": "Random Forest", "pattern": "\\brandom\\s*forest\\b", "category": "Machine Learning", "subcategory": "Algorithm", "confidence": 0.95, "aliases": []}
+{"skill": "XGBoost", "pattern": "\\bxgboost\\b", "category": "Machine Learning", "subcategory": "Algorithm", "confidence": 0.95, "aliases": []}
+{"skill": "LightGBM", "pattern": "\\blightgbm\\b", "category": "Machine Learning", "subcategory": "Algorithm", "confidence": 0.95, "aliases": []}
+{"skill": "Gradient Boosting", "pattern": "\\bgradient\\s*boosting\\b", "category": "Machine Learning", "subcategory": "Algorithm", "confidence": 0.90, "aliases": []}
+{"skill": "SVM", "pattern": "\\b(svm|support\\s*vector)\\b", "category": "Machine Learning", "subcategory": "Algorithm", "confidence": 0.90, "aliases": ["Support Vector Machine"]}
+{"skill": "K-Means", "pattern": "\\bk[\\s-]?means\\b", "category": "Machine Learning", "subcategory": "Algorithm", "confidence": 0.90, "aliases": []}
+{"skill": "Classification", "pattern": "\\bclassification\\b", "category": "Machine Learning", "subcategory": "Task", "confidence": 0.85, "aliases": []}
+{"skill": "Clustering", "pattern": "\\bclustering\\b", "category": "Machine Learning", "subcategory": "Task", "confidence": 0.85, "aliases": []}
+{"skill": "Computer Vision", "pattern": "\\bcomputer\\s*vision\\b", "category": "Machine Learning", "subcategory": "Domain", "confidence": 0.95, "aliases": ["CV"]}
+{"skill": "NLP", "pattern": "\\b(nlp|natural\\s*language\\s*processing)\\b", "category": "Machine Learning", "subcategory": "Domain", "confidence": 0.95, "aliases": ["Natural Language Processing"]}
+{"skill": "Object Detection", "pattern": "\\bobject\\s*detection\\b", "category": "Machine Learning", "subcategory": "Computer Vision", "confidence": 0.95, "aliases": []}
+{"skill": "Image Classification", "pattern": "\\bimage\\s*classification\\b", "category": "Machine Learning", "subcategory": "Computer Vision", "confidence": 0.95, "aliases": []}
+{"skill": "MLflow", "pattern": "\\bmlflow\\b", "category": "Machine Learning", "subcategory": "MLOps", "confidence": 0.95, "aliases": []}
+{"skill": "Kubeflow", "pattern": "\\bkubeflow\\b", "category": "Machine Learning", "subcategory": "MLOps", "confidence": 0.90, "aliases": []}
+{"skill": "MLOps", "pattern": "\\bmlops\\b", "category": "Machine Learning", "subcategory": "MLOps", "confidence": 0.95, "aliases": []}
+{"skill": "Model Deployment", "pattern": "\\bmodel\\s*deployment\\b", "category": "Machine Learning", "subcategory": "MLOps", "confidence": 0.90, "aliases": []}
+{"skill": "Prompt Engineering", "pattern": "\\bprompt\\s*engineering\\b", "category": "Machine Learning", "subcategory": "LLM", "confidence": 0.95, "aliases": []}
+{"skill": "RAG", "pattern": "\\b(rag|retrieval[\\s-]?augmented)\\b", "category": "Machine Learning", "subcategory": "LLM", "confidence": 0.95, "aliases": ["Retrieval Augmented Generation"]}
+{"skill": "Vector Database", "pattern": "\\bvector\\s*(database|db|store)\\b", "category": "Machine Learning", "subcategory": "LLM", "confidence": 0.90, "aliases": []}
+{"skill": "Embeddings", "pattern": "\\bembeddings?\\b", "category": "Machine Learning", "subcategory": "Technique", "confidence": 0.85, "aliases": []}
+{"skill": "Recommendation Systems", "pattern": "\\brecommend(ation|er)\\s*system\\b", "category": "Machine Learning", "subcategory": "Application", "confidence": 0.90, "aliases": []}
+{"skill": "Anomaly Detection", "pattern": "\\banomaly\\s*detection\\b", "category": "Machine Learning", "subcategory": "Application", "confidence": 0.90, "aliases": []}

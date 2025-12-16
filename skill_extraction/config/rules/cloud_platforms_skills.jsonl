@@ -1,0 +1,36 @@
+{"skill": "AWS", "pattern": "\\b(aws|amazon\\s*web\\s*services)\\b", "category": "Cloud Platforms", "subcategory": "Cloud Provider", "confidence": 0.95, "aliases": ["Amazon Web Services"]}
+{"skill": "Azure", "pattern": "\\b(azure|microsoft\\s*azure)\\b", "category": "Cloud Platforms", "subcategory": "Cloud Provider", "confidence": 0.95, "aliases": ["Microsoft Azure"]}
+{"skill": "GCP", "pattern": "\\b(gcp|google\\s*cloud)\\b", "category": "Cloud Platforms", "subcategory": "Cloud Provider", "confidence": 0.95, "aliases": ["Google Cloud Platform"]}
+{"skill": "EC2", "pattern": "\\bec2\\b", "category": "Cloud Platforms", "subcategory": "AWS Compute", "confidence": 0.95, "aliases": ["Amazon EC2"]}
+{"skill": "S3", "pattern": "\\bs3\\b", "category": "Cloud Platforms", "subcategory": "AWS Storage", "confidence": 0.95, "aliases": ["Amazon S3"]}
+{"skill": "Lambda", "pattern": "\\blambda\\b", "category": "Cloud Platforms", "subcategory": "AWS Serverless", "confidence": 0.85, "aliases": ["AWS Lambda"]}
+{"skill": "ECS", "pattern": "\\becs\\b", "category": "Cloud Platforms", "subcategory": "AWS Container", "confidence": 0.90, "aliases": []}
+{"skill": "EKS", "pattern": "\\beks\\b", "category": "Cloud Platforms", "subcategory": "AWS Container", "confidence": 0.90, "aliases": []}
+{"skill": "RDS", "pattern": "\\brds\\b", "category": "Cloud Platforms", "subcategory": "AWS Database", "confidence": 0.90, "aliases": []}
+{"skill": "DynamoDB", "pattern": "\\bdynamodb\\b", "category": "Cloud Platforms", "subcategory": "AWS Database", "confidence": 0.95, "aliases": []}
+{"skill": "CloudFormation", "pattern": "\\bcloudformation\\b", "category": "Cloud Platforms", "subcategory": "AWS IaC", "confidence": 0.95, "aliases": []}
+{"skill": "AWS CDK", "pattern": "\\bcdk\\b", "category": "Cloud Platforms", "subcategory": "AWS IaC", "confidence": 0.90, "aliases": []}
+{"skill": "SQS", "pattern": "\\bsqs\\b", "category": "Cloud Platforms", "subcategory": "AWS Messaging", "confidence": 0.90, "aliases": []}
+{"skill": "SNS", "pattern": "\\bsns\\b", "category": "Cloud Platforms", "subcategory": "AWS Messaging", "confidence": 0.90, "aliases": []}
+{"skill": "Kinesis", "pattern": "\\bkinesis\\b", "category": "Cloud Platforms", "subcategory": "AWS Streaming", "confidence": 0.95, "aliases": []}
+{"skill": "CloudWatch", "pattern": "\\bcloudwatch\\b", "category": "Cloud Platforms", "subcategory": "AWS Monitoring", "confidence": 0.95, "aliases": []}
+{"skill": "IAM", "pattern": "\\biam\\b", "category": "Cloud Platforms", "subcategory": "AWS Security", "confidence": 0.85, "aliases": []}
+{"skill": "VPC", "pattern": "\\bvpc\\b", "category": "Cloud Platforms", "subcategory": "AWS Networking", "confidence": 0.90, "aliases": []}
+{"skill": "API Gateway", "pattern": "\\bapi\\s*gateway\\b", "category": "Cloud Platforms", "subcategory": "AWS API", "confidence": 0.90, "aliases": []}
+{"skill": "SageMaker", "pattern": "\\bsagemaker\\b", "category": "Cloud Platforms", "subcategory": "AWS ML", "confidence": 0.95, "aliases": []}
+{"skill": "AWS Glue", "pattern": "\\bglue\\b", "category": "Cloud Platforms", "subcategory": "AWS Data", "confidence": 0.85, "aliases": []}
+{"skill": "Athena", "pattern": "\\bathena\\b", "category": "Cloud Platforms", "subcategory": "AWS Analytics", "confidence": 0.90, "aliases": []}
+{"skill": "Redshift", "pattern": "\\bredshift\\b", "category": "Cloud Platforms", "subcategory": "AWS Data Warehouse", "confidence": 0.95, "aliases": []}
+{"skill": "EMR", "pattern": "\\bemr\\b", "category": "Cloud Platforms", "subcategory": "AWS Big Data", "confidence": 0.90, "aliases": []}
+{"skill": "Azure DevOps", "pattern": "\\bazure\\s*devops\\b", "category": "Cloud Platforms", "subcategory": "Azure DevOps", "confidence": 0.95, "aliases": []}
+{"skill": "Azure Functions", "pattern": "\\bazure\\s*functions\\b", "category": "Cloud Platforms", "subcategory": "Azure Serverless", "confidence": 0.95, "aliases": []}
+{"skill": "AKS", "pattern": "\\baks\\b", "category": "Cloud Platforms", "subcategory": "Azure Container", "confidence": 0.90, "aliases": []}
+{"skill": "Azure Data Factory", "pattern": "\\bdata\\s*factory\\b", "category": "Cloud Platforms", "subcategory": "Azure Data", "confidence": 0.90, "aliases": ["ADF"]}
+{"skill": "Azure Synapse", "pattern": "\\bsynapse\\b", "category": "Cloud Platforms", "subcategory": "Azure Analytics", "confidence": 0.90, "aliases": []}
+{"skill": "BigQuery", "pattern": "\\bbigquery\\b", "category": "Cloud Platforms", "subcategory": "GCP Analytics", "confidence": 0.95, "aliases": []}
+{"skill": "Cloud Functions", "pattern": "\\bcloud\\s*functions\\b", "category": "Cloud Platforms", "subcategory": "GCP Serverless", "confidence": 0.90, "aliases": []}
+{"skill": "GKE", "pattern": "\\bgke\\b", "category": "Cloud Platforms", "subcategory": "GCP Container", "confidence": 0.90, "aliases": []}
+{"skill": "Vertex AI", "pattern": "\\bvertex\\s*ai\\b", "category": "Cloud Platforms", "subcategory": "GCP ML", "confidence": 0.95, "aliases": []}
+{"skill": "Dataflow", "pattern": "\\bdataflow\\b", "category": "Cloud Platforms", "subcategory": "GCP Data", "confidence": 0.90, "aliases": []}
+{"skill": "Serverless", "pattern": "\\bserverless\\b", "category": "Cloud Platforms", "subcategory": "Architecture", "confidence": 0.85, "aliases": []}
+{"skill": "Cloud Native", "pattern": "\\bcloud[\\s-]?native\\b", "category": "Cloud Platforms", "subcategory": "Architecture", "confidence": 0.85, "aliases": []}

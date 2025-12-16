@@ -1,0 +1,36 @@
+{"skill": "DevOps", "pattern": "\\bdevops\\b", "category": "DevOps", "subcategory": "Practice", "confidence": 0.95, "aliases": []}
+{"skill": "CI/CD", "pattern": "\\b(ci/?cd|continuous\\s*integration|continuous\\s*deployment)\\b", "category": "DevOps", "subcategory": "Practice", "confidence": 0.95, "aliases": ["Continuous Integration"]}
+{"skill": "Jenkins", "pattern": "\\bjenkins\\b", "category": "DevOps", "subcategory": "CI/CD Tool", "confidence": 0.95, "aliases": []}
+{"skill": "GitLab CI", "pattern": "\\bgitlab\\s*(ci)?\\b", "category": "DevOps", "subcategory": "CI/CD Tool", "confidence": 0.90, "aliases": []}
+{"skill": "GitHub Actions", "pattern": "\\bgithub\\s*actions\\b", "category": "DevOps", "subcategory": "CI/CD Tool", "confidence": 0.95, "aliases": []}
+{"skill": "CircleCI", "pattern": "\\bcircleci\\b", "category": "DevOps", "subcategory": "CI/CD Tool", "confidence": 0.90, "aliases": []}
+{"skill": "ArgoCD", "pattern": "\\bargocd\\b", "category": "DevOps", "subcategory": "CI/CD Tool", "confidence": 0.90, "aliases": []}
+{"skill": "Docker", "pattern": "\\bdocker\\b", "category": "DevOps", "subcategory": "Containerization", "confidence": 0.95, "aliases": []}
+{"skill": "Kubernetes", "pattern": "\\b(kubernetes|k8s)\\b", "category": "DevOps", "subcategory": "Orchestration", "confidence": 0.95, "aliases": ["K8s"]}
+{"skill": "Helm", "pattern": "\\bhelm\\b", "category": "DevOps", "subcategory": "Kubernetes", "confidence": 0.85, "aliases": []}
+{"skill": "Istio", "pattern": "\\bistio\\b", "category": "DevOps", "subcategory": "Service Mesh", "confidence": 0.90, "aliases": []}
+{"skill": "Terraform", "pattern": "\\bterraform\\b", "category": "DevOps", "subcategory": "IaC", "confidence": 0.95, "aliases": []}
+{"skill": "Ansible", "pattern": "\\bansible\\b", "category": "DevOps", "subcategory": "Configuration Management", "confidence": 0.95, "aliases": []}
+{"skill": "Puppet", "pattern": "\\bpuppet\\b", "category": "DevOps", "subcategory": "Configuration Management", "confidence": 0.90, "aliases": []}
+{"skill": "Chef", "pattern": "\\bchef\\b", "category": "DevOps", "subcategory": "Configuration Management", "confidence": 0.85, "aliases": []}
+{"skill": "Pulumi", "pattern": "\\bpulumi\\b", "category": "DevOps", "subcategory": "IaC", "confidence": 0.90, "aliases": []}
+{"skill": "Infrastructure as Code", "pattern": "\\b(infrastructure\\s*as\\s*code|iac)\\b", "category": "DevOps", "subcategory": "Practice", "confidence": 0.90, "aliases": ["IaC"]}
+{"skill": "Prometheus", "pattern": "\\bprometheus\\b", "category": "DevOps", "subcategory": "Monitoring", "confidence": 0.95, "aliases": []}
+{"skill": "Grafana", "pattern": "\\bgrafana\\b", "category": "DevOps", "subcategory": "Monitoring", "confidence": 0.95, "aliases": []}
+{"skill": "Datadog", "pattern": "\\bdatadog\\b", "category": "DevOps", "subcategory": "Monitoring", "confidence": 0.95, "aliases": []}
+{"skill": "New Relic", "pattern": "\\bnew\\s*relic\\b", "category": "DevOps", "subcategory": "Monitoring", "confidence": 0.95, "aliases": []}
+{"skill": "Splunk", "pattern": "\\bsplunk\\b", "category": "DevOps", "subcategory": "Monitoring", "confidence": 0.95, "aliases": []}
+{"skill": "ELK Stack", "pattern": "\\belk\\b", "category": "DevOps", "subcategory": "Logging", "confidence": 0.90, "aliases": []}
+{"skill": "Elasticsearch", "pattern": "\\belasticsearch\\b", "category": "DevOps", "subcategory": "Search/Logging", "confidence": 0.95, "aliases": []}
+{"skill": "Nginx", "pattern": "\\bnginx\\b", "category": "DevOps", "subcategory": "Web Server", "confidence": 0.90, "aliases": []}
+{"skill": "Linux", "pattern": "\\blinux\\b", "category": "DevOps", "subcategory": "Operating System", "confidence": 0.90, "aliases": []}
+{"skill": "Unix", "pattern": "\\bunix\\b", "category": "DevOps", "subcategory": "Operating System", "confidence": 0.85, "aliases": []}
+{"skill": "Bash", "pattern": "\\bbash\\b", "category": "DevOps", "subcategory": "Scripting", "confidence": 0.85, "aliases": []}
+{"skill": "Shell Scripting", "pattern": "\\bshell\\s*(script)?\\b", "category": "DevOps", "subcategory": "Scripting", "confidence": 0.85, "aliases": []}
+{"skill": "Git", "pattern": "\\bgit\\b", "category": "DevOps", "subcategory": "Version Control", "confidence": 0.90, "aliases": []}
+{"skill": "GitHub", "pattern": "\\bgithub\\b", "category": "DevOps", "subcategory": "Version Control", "confidence": 0.90, "aliases": []}
+{"skill": "GitLab", "pattern": "\\bgitlab\\b", "category": "DevOps", "subcategory": "Version Control", "confidence": 0.90, "aliases": []}
+{"skill": "Bitbucket", "pattern": "\\bbitbucket\\b", "category": "DevOps", "subcategory": "Version Control", "confidence": 0.90, "aliases": []}
+{"skill": "HashiCorp Vault", "pattern": "\\bvault\\b", "category": "DevOps", "subcategory": "Secrets Management", "confidence": 0.80, "aliases": []}
+{"skill": "SRE", "pattern": "\\b(sre|site\\s*reliability)\\b", "category": "DevOps", "subcategory": "Practice", "confidence": 0.90, "aliases": ["Site Reliability Engineering"]}
+{"skill": "Observability", "pattern": "\\bobservability\\b", "category": "DevOps", "subcategory": "Practice", "confidence": 0.85, "aliases": []}

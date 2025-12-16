@@ -1,0 +1,28 @@
+{"skill": "Communication", "pattern": "\\bcommunication\\b", "category": "Soft Skills", "subcategory": "Interpersonal", "confidence": 0.85, "aliases": []}
+{"skill": "Leadership", "pattern": "\\bleadership\\b", "category": "Soft Skills", "subcategory": "Management", "confidence": 0.85, "aliases": []}
+{"skill": "Team Leadership", "pattern": "\\bteam\\s*lead\\b", "category": "Soft Skills", "subcategory": "Management", "confidence": 0.90, "aliases": []}
+{"skill": "Teamwork", "pattern": "\\bteamwork\\b", "category": "Soft Skills", "subcategory": "Collaboration", "confidence": 0.85, "aliases": []}
+{"skill": "Collaboration", "pattern": "\\bcollaboration\\b", "category": "Soft Skills", "subcategory": "Collaboration", "confidence": 0.85, "aliases": []}
+{"skill": "Cross-functional Collaboration", "pattern": "\\bcross[\\s-]?functional\\b", "category": "Soft Skills", "subcategory": "Collaboration", "confidence": 0.90, "aliases": []}
+{"skill": "Problem Solving", "pattern": "\\bproblem[\\s-]?solv(ing|er)\\b", "category": "Soft Skills", "subcategory": "Cognitive", "confidence": 0.90, "aliases": []}
+{"skill": "Analytical Skills", "pattern": "\\banalytical\\b", "category": "Soft Skills", "subcategory": "Cognitive", "confidence": 0.85, "aliases": []}
+{"skill": "Critical Thinking", "pattern": "\\bcritical\\s*thinking\\b", "category": "Soft Skills", "subcategory": "Cognitive", "confidence": 0.90, "aliases": []}
+{"skill": "Decision Making", "pattern": "\\bdecision[\\s-]?making\\b", "category": "Soft Skills", "subcategory": "Cognitive", "confidence": 0.85, "aliases": []}
+{"skill": "Time Management", "pattern": "\\btime\\s*management\\b", "category": "Soft Skills", "subcategory": "Organization", "confidence": 0.90, "aliases": []}
+{"skill": "Project Management", "pattern": "\\bproject\\s*management\\b", "category": "Soft Skills", "subcategory": "Management", "confidence": 0.90, "aliases": []}
+{"skill": "Agile", "pattern": "\\bagile\\b", "category": "Soft Skills", "subcategory": "Methodology", "confidence": 0.85, "aliases": []}
+{"skill": "Scrum", "pattern": "\\bscrum\\b", "category": "Soft Skills", "subcategory": "Methodology", "confidence": 0.90, "aliases": []}
+{"skill": "Kanban", "pattern": "\\bkanban\\b", "category": "Soft Skills", "subcategory": "Methodology", "confidence": 0.90, "aliases": []}
+{"skill": "Stakeholder Management", "pattern": "\\bstakeholder\\b", "category": "Soft Skills", "subcategory": "Management", "confidence": 0.85, "aliases": []}
+{"skill": "Presentation Skills", "pattern": "\\bpresentation\\b", "category": "Soft Skills", "subcategory": "Communication", "confidence": 0.80, "aliases": []}
+{"skill": "Mentoring", "pattern": "\\bmentor(ing)?\\b", "category": "Soft Skills", "subcategory": "Development", "confidence": 0.85, "aliases": []}
+{"skill": "Coaching", "pattern": "\\bcoaching\\b", "category": "Soft Skills", "subcategory": "Development", "confidence": 0.85, "aliases": []}
+{"skill": "Adaptability", "pattern": "\\badaptab(ility|le)\\b", "category": "Soft Skills", "subcategory": "Personal", "confidence": 0.85, "aliases": []}
+{"skill": "Creativity", "pattern": "\\bcreativi?ty\\b", "category": "Soft Skills", "subcategory": "Personal", "confidence": 0.80, "aliases": []}
+{"skill": "Innovation", "pattern": "\\binnovat(ion|ive)\\b", "category": "Soft Skills", "subcategory": "Personal", "confidence": 0.80, "aliases": []}
+{"skill": "Attention to Detail", "pattern": "\\battention\\s*to\\s*detail\\b", "category": "Soft Skills", "subcategory": "Personal", "confidence": 0.90, "aliases": []}
+{"skill": "Self-Motivated", "pattern": "\\bself[\\s-]?motivat\\b", "category": "Soft Skills", "subcategory": "Personal", "confidence": 0.85, "aliases": []}
+{"skill": "Documentation", "pattern": "\\bdocumentation\\b", "category": "Soft Skills", "subcategory": "Technical Writing", "confidence": 0.80, "aliases": []}
+{"skill": "Technical Writing", "pattern": "\\btechnical\\s*writing\\b", "category": "Soft Skills", "subcategory": "Technical Writing", "confidence": 0.90, "aliases": []}
+{"skill": "Requirements Gathering", "pattern": "\\brequirements\\b", "category": "Soft Skills", "subcategory": "Analysis", "confidence": 0.80, "aliases": []}
+{"skill": "Business Analysis", "pattern": "\\bbusiness\\s*analysis\\b", "category": "Soft Skills", "subcategory": "Analysis", "confidence": 0.90, "aliases": []}

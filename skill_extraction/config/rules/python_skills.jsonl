@@ -1,0 +1,41 @@
+{"skill": "Python", "pattern": "\\bpython\\b", "category": "Python", "subcategory": "Core Language", "confidence": 0.95, "aliases": ["Python 3", "Python3"]}
+{"skill": "Django", "pattern": "\\bdjango\\b", "category": "Python", "subcategory": "Web Framework", "confidence": 0.95, "aliases": ["Django REST"]}
+{"skill": "Flask", "pattern": "\\bflask\\b", "category": "Python", "subcategory": "Web Framework", "confidence": 0.90, "aliases": []}
+{"skill": "FastAPI", "pattern": "\\bfastapi\\b", "category": "Python", "subcategory": "Web Framework", "confidence": 0.95, "aliases": ["Fast API"]}
+{"skill": "Pandas", "pattern": "\\bpandas\\b", "category": "Python", "subcategory": "Data Analysis", "confidence": 0.95, "aliases": []}
+{"skill": "NumPy", "pattern": "\\bnumpy\\b", "category": "Python", "subcategory": "Scientific Computing", "confidence": 0.95, "aliases": []}
+{"skill": "SciPy", "pattern": "\\bscipy\\b", "category": "Python", "subcategory": "Scientific Computing", "confidence": 0.95, "aliases": []}
+{"skill": "PyTorch", "pattern": "\\bpytorch\\b", "category": "Python", "subcategory": "Machine Learning", "confidence": 0.95, "aliases": []}
+{"skill": "TensorFlow", "pattern": "\\btensorflow\\b", "category": "Python", "subcategory": "Machine Learning", "confidence": 0.95, "aliases": ["TF"]}
+{"skill": "Keras", "pattern": "\\bkeras\\b", "category": "Python", "subcategory": "Machine Learning", "confidence": 0.95, "aliases": []}
+{"skill": "Scikit-learn", "pattern": "\\b(scikit-learn|sklearn)\\b", "category": "Python", "subcategory": "Machine Learning", "confidence": 0.95, "aliases": ["sklearn"]}
+{"skill": "Matplotlib", "pattern": "\\bmatplotlib\\b", "category": "Python", "subcategory": "Visualization", "confidence": 0.95, "aliases": []}
+{"skill": "Seaborn", "pattern": "\\bseaborn\\b", "category": "Python", "subcategory": "Visualization", "confidence": 0.95, "aliases": []}
+{"skill": "Plotly", "pattern": "\\bplotly\\b", "category": "Python", "subcategory": "Visualization", "confidence": 0.90, "aliases": []}
+{"skill": "Jupyter", "pattern": "\\bjupyter\\b", "category": "Python", "subcategory": "Development Environment", "confidence": 0.90, "aliases": ["Jupyter Notebook", "JupyterLab"]}
+{"skill": "PySpark", "pattern": "\\bpyspark\\b", "category": "Python", "subcategory": "Big Data", "confidence": 0.95, "aliases": []}
+{"skill": "Celery", "pattern": "\\bcelery\\b", "category": "Python", "subcategory": "Task Queue", "confidence": 0.85, "aliases": []}
+{"skill": "SQLAlchemy", "pattern": "\\bsqlalchemy\\b", "category": "Python", "subcategory": "ORM", "confidence": 0.95, "aliases": []}
+{"skill": "Pydantic", "pattern": "\\bpydantic\\b", "category": "Python", "subcategory": "Data Validation", "confidence": 0.95, "aliases": []}
+{"skill": "Boto3", "pattern": "\\bboto3\\b", "category": "Python", "subcategory": "AWS SDK", "confidence": 0.95, "aliases": []}
+{"skill": "Airflow", "pattern": "\\bairflow\\b", "category": "Python", "subcategory": "Workflow Orchestration", "confidence": 0.95, "aliases": ["Apache Airflow"]}
+{"skill": "Luigi", "pattern": "\\bluigi\\b", "category": "Python", "subcategory": "Workflow Orchestration", "confidence": 0.85, "aliases": []}
+{"skill": "Prefect", "pattern": "\\bprefect\\b", "category": "Python", "subcategory": "Workflow Orchestration", "confidence": 0.90, "aliases": []}
+{"skill": "Dagster", "pattern": "\\bdagster\\b", "category": "Python", "subcategory": "Workflow Orchestration", "confidence": 0.90, "aliases": []}
+{"skill": "Streamlit", "pattern": "\\bstreamlit\\b", "category": "Python", "subcategory": "Dashboard", "confidence": 0.95, "aliases": []}
+{"skill": "Gradio", "pattern": "\\bgradio\\b", "category": "Python", "subcategory": "ML Interface", "confidence": 0.90, "aliases": []}
+{"skill": "Beautiful Soup", "pattern": "\\b(beautifulsoup|beautiful soup|bs4)\\b", "category": "Python", "subcategory": "Web Scraping", "confidence": 0.90, "aliases": ["BeautifulSoup"]}
+{"skill": "Scrapy", "pattern": "\\bscrapy\\b", "category": "Python", "subcategory": "Web Scraping", "confidence": 0.95, "aliases": []}
+{"skill": "pytest", "pattern": "\\bpytest\\b", "category": "Python", "subcategory": "Testing", "confidence": 0.95, "aliases": []}
+{"skill": "unittest", "pattern": "\\bunittest\\b", "category": "Python", "subcategory": "Testing", "confidence": 0.90, "aliases": []}
+{"skill": "Poetry", "pattern": "\\bpoetry\\b", "category": "Python", "subcategory": "Package Management", "confidence": 0.80, "aliases": []}
+{"skill": "Conda", "pattern": "\\bconda\\b", "category": "Python", "subcategory": "Environment Management", "confidence": 0.90, "aliases": ["Anaconda", "Miniconda"]}
+{"skill": "NLTK", "pattern": "\\bnltk\\b", "category": "Python", "subcategory": "NLP", "confidence": 0.95, "aliases": []}
+{"skill": "spaCy", "pattern": "\\bspacy\\b", "category": "Python", "subcategory": "NLP", "confidence": 0.95, "aliases": []}
+{"skill": "Gensim", "pattern": "\\bgensim\\b", "category": "Python", "subcategory": "NLP", "confidence": 0.90, "aliases": []}
+{"skill": "OpenCV", "pattern": "\\b(opencv|cv2)\\b", "category": "Python", "subcategory": "Computer Vision", "confidence": 0.95, "aliases": ["CV2"]}
+{"skill": "Dask", "pattern": "\\bdask\\b", "category": "Python", "subcategory": "Parallel Computing", "confidence": 0.90, "aliases": []}
+{"skill": "Ray", "pattern": "\\bray\\b", "category": "Python", "subcategory": "Distributed Computing", "confidence": 0.80, "aliases": []}
+{"skill": "Hugging Face", "pattern": "\\b(hugg?ing\\s*face|transformers)\\b", "category": "Python", "subcategory": "NLP/ML", "confidence": 0.90, "aliases": ["HuggingFace"]}
+{"skill": "LangChain", "pattern": "\\blangchain\\b", "category": "Python", "subcategory": "LLM Framework", "confidence": 0.95, "aliases": []}
+{"skill": "LlamaIndex", "pattern": "\\bllamaindex\\b", "category": "Python", "subcategory": "LLM Framework", "confidence": 0.90, "aliases": []}

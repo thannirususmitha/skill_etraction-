@@ -1,0 +1,34 @@
+{"skill": "Data Science", "pattern": "\\bdata\\s*science\\b", "category": "Data Science", "subcategory": "Core", "confidence": 0.95, "aliases": ["Data Scientist"]}
+{"skill": "Data Analysis", "pattern": "\\bdata\\s*analysis\\b", "category": "Data Science", "subcategory": "Core", "confidence": 0.95, "aliases": ["Data Analyst"]}
+{"skill": "Data Analytics", "pattern": "\\bdata\\s*analytics\\b", "category": "Data Science", "subcategory": "Core", "confidence": 0.95, "aliases": []}
+{"skill": "Statistics", "pattern": "\\b(statistics|statistical)\\b", "category": "Data Science", "subcategory": "Mathematics", "confidence": 0.90, "aliases": []}
+{"skill": "Probability", "pattern": "\\bprobability\\b", "category": "Data Science", "subcategory": "Mathematics", "confidence": 0.85, "aliases": []}
+{"skill": "Hypothesis Testing", "pattern": "\\bhypothesis\\s*testing\\b", "category": "Data Science", "subcategory": "Statistics", "confidence": 0.90, "aliases": []}
+{"skill": "Regression Analysis", "pattern": "\\bregression\\b", "category": "Data Science", "subcategory": "Statistics", "confidence": 0.85, "aliases": ["Linear Regression", "Logistic Regression"]}
+{"skill": "Time Series", "pattern": "\\btime\\s*series\\b", "category": "Data Science", "subcategory": "Statistics", "confidence": 0.90, "aliases": []}
+{"skill": "A/B Testing", "pattern": "\\ba/?b\\s*testing\\b", "category": "Data Science", "subcategory": "Experimentation", "confidence": 0.95, "aliases": ["AB Testing"]}
+{"skill": "Predictive Modeling", "pattern": "\\bpredictive\\s*model(ing|s)?\\b", "category": "Data Science", "subcategory": "Modeling", "confidence": 0.90, "aliases": []}
+{"skill": "Data Modeling", "pattern": "\\bdata\\s*model(ing|s)?\\b", "category": "Data Science", "subcategory": "Modeling", "confidence": 0.90, "aliases": []}
+{"skill": "Data Mining", "pattern": "\\bdata\\s*mining\\b", "category": "Data Science", "subcategory": "Technique", "confidence": 0.90, "aliases": []}
+{"skill": "Feature Engineering", "pattern": "\\bfeature\\s*engineering\\b", "category": "Data Science", "subcategory": "Technique", "confidence": 0.95, "aliases": []}
+{"skill": "Data Cleaning", "pattern": "\\bdata\\s*cleaning\\b", "category": "Data Science", "subcategory": "Preprocessing", "confidence": 0.90, "aliases": ["Data Cleansing"]}
+{"skill": "Data Wrangling", "pattern": "\\bdata\\s*wrangling\\b", "category": "Data Science", "subcategory": "Preprocessing", "confidence": 0.90, "aliases": []}
+{"skill": "ETL", "pattern": "\\betl\\b", "category": "Data Science", "subcategory": "Process", "confidence": 0.95, "aliases": ["Extract Transform Load"]}
+{"skill": "ELT", "pattern": "\\belt\\b", "category": "Data Science", "subcategory": "Process", "confidence": 0.90, "aliases": []}
+{"skill": "Data Visualization", "pattern": "\\bdata\\s*visualization\\b", "category": "Data Science", "subcategory": "Visualization", "confidence": 0.95, "aliases": []}
+{"skill": "Tableau", "pattern": "\\btableau\\b", "category": "Data Science", "subcategory": "BI Tool", "confidence": 0.95, "aliases": []}
+{"skill": "Power BI", "pattern": "\\bpower\\s*bi\\b", "category": "Data Science", "subcategory": "BI Tool", "confidence": 0.95, "aliases": ["PowerBI"]}
+{"skill": "Looker", "pattern": "\\blooker\\b", "category": "Data Science", "subcategory": "BI Tool", "confidence": 0.90, "aliases": []}
+{"skill": "QlikView", "pattern": "\\bqlik(view|sense)?\\b", "category": "Data Science", "subcategory": "BI Tool", "confidence": 0.90, "aliases": ["Qlik Sense"]}
+{"skill": "R Programming", "pattern": "\\br\\s*(programming|language|studio)?\\b", "category": "Data Science", "subcategory": "Programming", "confidence": 0.80, "aliases": ["R"]}
+{"skill": "SAS", "pattern": "\\bsas\\b", "category": "Data Science", "subcategory": "Statistical Software", "confidence": 0.90, "aliases": []}
+{"skill": "SPSS", "pattern": "\\bspss\\b", "category": "Data Science", "subcategory": "Statistical Software", "confidence": 0.90, "aliases": []}
+{"skill": "MATLAB", "pattern": "\\bmatlab\\b", "category": "Data Science", "subcategory": "Scientific Computing", "confidence": 0.90, "aliases": []}
+{"skill": "Excel", "pattern": "\\bexcel\\b", "category": "Data Science", "subcategory": "Spreadsheet", "confidence": 0.80, "aliases": ["Microsoft Excel"]}
+{"skill": "Business Intelligence", "pattern": "\\bbusiness\\s*intelligence\\b", "category": "Data Science", "subcategory": "Domain", "confidence": 0.90, "aliases": ["BI"]}
+{"skill": "KPI", "pattern": "\\bkpis?\\b", "category": "Data Science", "subcategory": "Metrics", "confidence": 0.85, "aliases": []}
+{"skill": "Dashboard", "pattern": "\\bdashboard\\b", "category": "Data Science", "subcategory": "Visualization", "confidence": 0.85, "aliases": []}
+{"skill": "EDA", "pattern": "\\b(eda|exploratory\\s*data\\s*analysis)\\b", "category": "Data Science", "subcategory": "Analysis", "confidence": 0.90, "aliases": ["Exploratory Data Analysis"]}
+{"skill": "Cohort Analysis", "pattern": "\\bcohort\\s*analysis\\b", "category": "Data Science", "subcategory": "Analysis", "confidence": 0.90, "aliases": []}
+{"skill": "Segmentation", "pattern": "\\bsegmentation\\b", "category": "Data Science", "subcategory": "Analysis", "confidence": 0.80, "aliases": []}
+{"skill": "Sentiment Analysis", "pattern": "\\bsentiment\\s*analysis\\b", "category": "Data Science", "subcategory": "NLP", "confidence": 0.95, "aliases": []}

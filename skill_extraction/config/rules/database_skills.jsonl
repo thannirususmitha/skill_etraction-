@@ -1,0 +1,34 @@
+{"skill": "SQL", "pattern": "\\bsql\\b", "category": "Database", "subcategory": "Language", "confidence": 0.90, "aliases": []}
+{"skill": "MySQL", "pattern": "\\bmysql\\b", "category": "Database", "subcategory": "Relational", "confidence": 0.95, "aliases": []}
+{"skill": "PostgreSQL", "pattern": "\\b(postgresql|postgres)\\b", "category": "Database", "subcategory": "Relational", "confidence": 0.95, "aliases": ["Postgres"]}
+{"skill": "Oracle Database", "pattern": "\\boracle\\b", "category": "Database", "subcategory": "Relational", "confidence": 0.85, "aliases": []}
+{"skill": "SQL Server", "pattern": "\\b(sql\\s*server|mssql)\\b", "category": "Database", "subcategory": "Relational", "confidence": 0.90, "aliases": ["MSSQL"]}
+{"skill": "MariaDB", "pattern": "\\bmariadb\\b", "category": "Database", "subcategory": "Relational", "confidence": 0.90, "aliases": []}
+{"skill": "SQLite", "pattern": "\\bsqlite\\b", "category": "Database", "subcategory": "Relational", "confidence": 0.90, "aliases": []}
+{"skill": "MongoDB", "pattern": "\\bmongodb\\b", "category": "Database", "subcategory": "NoSQL", "confidence": 0.95, "aliases": ["Mongo"]}
+{"skill": "Cassandra", "pattern": "\\bcassandra\\b", "category": "Database", "subcategory": "NoSQL", "confidence": 0.95, "aliases": []}
+{"skill": "CouchDB", "pattern": "\\bcouchdb\\b", "category": "Database", "subcategory": "NoSQL", "confidence": 0.90, "aliases": []}
+{"skill": "DynamoDB", "pattern": "\\bdynamodb\\b", "category": "Database", "subcategory": "NoSQL", "confidence": 0.95, "aliases": []}
+{"skill": "Redis", "pattern": "\\bredis\\b", "category": "Database", "subcategory": "Cache", "confidence": 0.95, "aliases": []}
+{"skill": "Memcached", "pattern": "\\bmemcached\\b", "category": "Database", "subcategory": "Cache", "confidence": 0.90, "aliases": []}
+{"skill": "Elasticsearch", "pattern": "\\belasticsearch\\b", "category": "Database", "subcategory": "Search Engine", "confidence": 0.95, "aliases": []}
+{"skill": "Neo4j", "pattern": "\\bneo4j\\b", "category": "Database", "subcategory": "Graph", "confidence": 0.95, "aliases": []}
+{"skill": "InfluxDB", "pattern": "\\binfluxdb\\b", "category": "Database", "subcategory": "Time Series", "confidence": 0.90, "aliases": []}
+{"skill": "Firebase", "pattern": "\\bfirebase\\b", "category": "Database", "subcategory": "BaaS", "confidence": 0.90, "aliases": []}
+{"skill": "Snowflake", "pattern": "\\bsnowflake\\b", "category": "Database", "subcategory": "Data Warehouse", "confidence": 0.95, "aliases": []}
+{"skill": "Redshift", "pattern": "\\bredshift\\b", "category": "Database", "subcategory": "Data Warehouse", "confidence": 0.95, "aliases": []}
+{"skill": "BigQuery", "pattern": "\\bbigquery\\b", "category": "Database", "subcategory": "Data Warehouse", "confidence": 0.95, "aliases": []}
+{"skill": "Teradata", "pattern": "\\bteradata\\b", "category": "Database", "subcategory": "Data Warehouse", "confidence": 0.90, "aliases": []}
+{"skill": "Apache Hive", "pattern": "\\bhive\\b", "category": "Database", "subcategory": "Data Warehouse", "confidence": 0.85, "aliases": []}
+{"skill": "Presto", "pattern": "\\bpresto\\b", "category": "Database", "subcategory": "Query Engine", "confidence": 0.85, "aliases": []}
+{"skill": "Trino", "pattern": "\\btrino\\b", "category": "Database", "subcategory": "Query Engine", "confidence": 0.85, "aliases": []}
+{"skill": "ClickHouse", "pattern": "\\bclickhouse\\b", "category": "Database", "subcategory": "Analytics", "confidence": 0.90, "aliases": []}
+{"skill": "Database Design", "pattern": "\\bdatabase\\s*design\\b", "category": "Database", "subcategory": "Skill", "confidence": 0.90, "aliases": []}
+{"skill": "Data Modeling", "pattern": "\\bdata\\s*model(ing)?\\b", "category": "Database", "subcategory": "Skill", "confidence": 0.90, "aliases": []}
+{"skill": "Stored Procedures", "pattern": "\\bstored\\s*procedure\\b", "category": "Database", "subcategory": "Skill", "confidence": 0.90, "aliases": []}
+{"skill": "NoSQL", "pattern": "\\bnosql\\b", "category": "Database", "subcategory": "Type", "confidence": 0.90, "aliases": []}
+{"skill": "RDBMS", "pattern": "\\brdbms\\b", "category": "Database", "subcategory": "Type", "confidence": 0.90, "aliases": []}
+{"skill": "Pinecone", "pattern": "\\bpinecone\\b", "category": "Database", "subcategory": "Vector Database", "confidence": 0.95, "aliases": []}
+{"skill": "Weaviate", "pattern": "\\bweaviate\\b", "category": "Database", "subcategory": "Vector Database", "confidence": 0.90, "aliases": []}
+{"skill": "Milvus", "pattern": "\\bmilvus\\b", "category": "Database", "subcategory": "Vector Database", "confidence": 0.90, "aliases": []}
+{"skill": "Chroma", "pattern": "\\bchroma\\b", "category": "Database", "subcategory": "Vector Database", "confidence": 0.85, "aliases": []}

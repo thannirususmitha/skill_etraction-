@@ -1,0 +1,31 @@
+{"skill": "Software Testing", "pattern": "\\b(software\\s*)?testing\\b", "category": "Testing & QA", "subcategory": "Core", "confidence": 0.80, "aliases": []}
+{"skill": "Quality Assurance", "pattern": "\\b(quality\\s*assurance|qa)\\b", "category": "Testing & QA", "subcategory": "Core", "confidence": 0.90, "aliases": ["QA"]}
+{"skill": "Unit Testing", "pattern": "\\bunit\\s*test\\b", "category": "Testing & QA", "subcategory": "Testing Type", "confidence": 0.90, "aliases": []}
+{"skill": "Integration Testing", "pattern": "\\bintegration\\s*test\\b", "category": "Testing & QA", "subcategory": "Testing Type", "confidence": 0.90, "aliases": []}
+{"skill": "End-to-End Testing", "pattern": "\\b(end[\\s-]?to[\\s-]?end|e2e)\\b", "category": "Testing & QA", "subcategory": "Testing Type", "confidence": 0.90, "aliases": ["E2E"]}
+{"skill": "Functional Testing", "pattern": "\\bfunctional\\s*test\\b", "category": "Testing & QA", "subcategory": "Testing Type", "confidence": 0.90, "aliases": []}
+{"skill": "Regression Testing", "pattern": "\\bregression\\s*test\\b", "category": "Testing & QA", "subcategory": "Testing Type", "confidence": 0.90, "aliases": []}
+{"skill": "Performance Testing", "pattern": "\\bperformance\\s*test\\b", "category": "Testing & QA", "subcategory": "Testing Type", "confidence": 0.90, "aliases": []}
+{"skill": "Load Testing", "pattern": "\\bload\\s*test\\b", "category": "Testing & QA", "subcategory": "Performance", "confidence": 0.90, "aliases": []}
+{"skill": "Security Testing", "pattern": "\\bsecurity\\s*test\\b", "category": "Testing & QA", "subcategory": "Security", "confidence": 0.90, "aliases": []}
+{"skill": "Test Automation", "pattern": "\\b(test\\s*)?automation\\b", "category": "Testing & QA", "subcategory": "Automation", "confidence": 0.85, "aliases": []}
+{"skill": "Selenium", "pattern": "\\bselenium\\b", "category": "Testing & QA", "subcategory": "Automation Tool", "confidence": 0.95, "aliases": []}
+{"skill": "Cypress", "pattern": "\\bcypress\\b", "category": "Testing & QA", "subcategory": "Automation Tool", "confidence": 0.95, "aliases": []}
+{"skill": "Playwright", "pattern": "\\bplaywright\\b", "category": "Testing & QA", "subcategory": "Automation Tool", "confidence": 0.90, "aliases": []}
+{"skill": "Appium", "pattern": "\\bappium\\b", "category": "Testing & QA", "subcategory": "Mobile Testing", "confidence": 0.90, "aliases": []}
+{"skill": "Jest", "pattern": "\\bjest\\b", "category": "Testing & QA", "subcategory": "Unit Testing Tool", "confidence": 0.90, "aliases": []}
+{"skill": "JUnit", "pattern": "\\bjunit\\b", "category": "Testing & QA", "subcategory": "Unit Testing Tool", "confidence": 0.95, "aliases": []}
+{"skill": "TestNG", "pattern": "\\btestng\\b", "category": "Testing & QA", "subcategory": "Unit Testing Tool", "confidence": 0.90, "aliases": []}
+{"skill": "pytest", "pattern": "\\bpytest\\b", "category": "Testing & QA", "subcategory": "Unit Testing Tool", "confidence": 0.95, "aliases": []}
+{"skill": "Cucumber", "pattern": "\\bcucumber\\b", "category": "Testing & QA", "subcategory": "BDD Tool", "confidence": 0.90, "aliases": []}
+{"skill": "BDD", "pattern": "\\b(bdd|behavior[\\s-]?driven)\\b", "category": "Testing & QA", "subcategory": "Methodology", "confidence": 0.90, "aliases": []}
+{"skill": "TDD", "pattern": "\\b(tdd|test[\\s-]?driven)\\b", "category": "Testing & QA", "subcategory": "Methodology", "confidence": 0.90, "aliases": []}
+{"skill": "Test Cases", "pattern": "\\btest\\s*cases?\\b", "category": "Testing & QA", "subcategory": "Documentation", "confidence": 0.85, "aliases": []}
+{"skill": "Test Plans", "pattern": "\\btest\\s*plan\\b", "category": "Testing & QA", "subcategory": "Documentation", "confidence": 0.85, "aliases": []}
+{"skill": "JIRA", "pattern": "\\bjira\\b", "category": "Testing & QA", "subcategory": "Tool", "confidence": 0.85, "aliases": []}
+{"skill": "API Testing", "pattern": "\\bapi\\s*test\\b", "category": "Testing & QA", "subcategory": "Testing Type", "confidence": 0.90, "aliases": []}
+{"skill": "Postman", "pattern": "\\bpostman\\b", "category": "Testing & QA", "subcategory": "API Tool", "confidence": 0.90, "aliases": []}
+{"skill": "JMeter", "pattern": "\\bjmeter\\b", "category": "Testing & QA", "subcategory": "Performance Tool", "confidence": 0.90, "aliases": []}
+{"skill": "Gatling", "pattern": "\\bgatling\\b", "category": "Testing & QA", "subcategory": "Performance Tool", "confidence": 0.85, "aliases": []}
+{"skill": "Code Coverage", "pattern": "\\bcode\\s*coverage\\b", "category": "Testing & QA", "subcategory": "Metrics", "confidence": 0.90, "aliases": []}
+{"skill": "Manual Testing", "pattern": "\\bmanual\\s*test\\b", "category": "Testing & QA", "subcategory": "Testing Type", "confidence": 0.85, "aliases": []}

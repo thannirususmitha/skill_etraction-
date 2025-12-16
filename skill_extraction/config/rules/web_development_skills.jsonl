@@ -1,0 +1,39 @@
+{"skill": "JavaScript", "pattern": "\\bjavascript\\b", "category": "Web Development", "subcategory": "Language", "confidence": 0.95, "aliases": ["JS", "ES6"]}
+{"skill": "TypeScript", "pattern": "\\btypescript\\b", "category": "Web Development", "subcategory": "Language", "confidence": 0.95, "aliases": ["TS"]}
+{"skill": "HTML", "pattern": "\\bhtml\\b", "category": "Web Development", "subcategory": "Markup", "confidence": 0.90, "aliases": ["HTML5"]}
+{"skill": "CSS", "pattern": "\\bcss\\b", "category": "Web Development", "subcategory": "Styling", "confidence": 0.90, "aliases": ["CSS3"]}
+{"skill": "React", "pattern": "\\breact(js)?\\b", "category": "Web Development", "subcategory": "Frontend Framework", "confidence": 0.95, "aliases": ["ReactJS"]}
+{"skill": "Angular", "pattern": "\\bangular\\b", "category": "Web Development", "subcategory": "Frontend Framework", "confidence": 0.95, "aliases": ["AngularJS"]}
+{"skill": "Vue.js", "pattern": "\\bvue(\\.?js)?\\b", "category": "Web Development", "subcategory": "Frontend Framework", "confidence": 0.95, "aliases": ["Vue"]}
+{"skill": "Svelte", "pattern": "\\bsvelte\\b", "category": "Web Development", "subcategory": "Frontend Framework", "confidence": 0.90, "aliases": []}
+{"skill": "Next.js", "pattern": "\\bnext(\\.?js)?\\b", "category": "Web Development", "subcategory": "Framework", "confidence": 0.95, "aliases": ["NextJS"]}
+{"skill": "Nuxt.js", "pattern": "\\bnuxt\\b", "category": "Web Development", "subcategory": "Framework", "confidence": 0.90, "aliases": []}
+{"skill": "Node.js", "pattern": "\\bnode(\\.?js)?\\b", "category": "Web Development", "subcategory": "Runtime", "confidence": 0.95, "aliases": ["NodeJS"]}
+{"skill": "Express.js", "pattern": "\\bexpress(\\.?js)?\\b", "category": "Web Development", "subcategory": "Backend Framework", "confidence": 0.90, "aliases": ["Express"]}
+{"skill": "NestJS", "pattern": "\\bnestjs\\b", "category": "Web Development", "subcategory": "Backend Framework", "confidence": 0.90, "aliases": []}
+{"skill": "PHP", "pattern": "\\bphp\\b", "category": "Web Development", "subcategory": "Language", "confidence": 0.90, "aliases": []}
+{"skill": "Laravel", "pattern": "\\blaravel\\b", "category": "Web Development", "subcategory": "PHP Framework", "confidence": 0.95, "aliases": []}
+{"skill": "Ruby on Rails", "pattern": "\\b(rails|ruby\\s*on\\s*rails)\\b", "category": "Web Development", "subcategory": "Framework", "confidence": 0.95, "aliases": ["Rails"]}
+{"skill": "ASP.NET", "pattern": "\\basp\\.?net\\b", "category": "Web Development", "subcategory": "Framework", "confidence": 0.90, "aliases": []}
+{"skill": ".NET Core", "pattern": "\\b\\.?net\\s*core\\b", "category": "Web Development", "subcategory": "Framework", "confidence": 0.90, "aliases": []}
+{"skill": "C#", "pattern": "\\bc#\\b", "category": "Web Development", "subcategory": "Language", "confidence": 0.90, "aliases": ["CSharp"]}
+{"skill": "Redux", "pattern": "\\bredux\\b", "category": "Web Development", "subcategory": "State Management", "confidence": 0.90, "aliases": []}
+{"skill": "GraphQL", "pattern": "\\bgraphql\\b", "category": "Web Development", "subcategory": "API", "confidence": 0.95, "aliases": []}
+{"skill": "REST API", "pattern": "\\brest\\s*api\\b", "category": "Web Development", "subcategory": "API", "confidence": 0.90, "aliases": []}
+{"skill": "WebSocket", "pattern": "\\bwebsocket\\b", "category": "Web Development", "subcategory": "Real-time", "confidence": 0.90, "aliases": []}
+{"skill": "Sass", "pattern": "\\b(sass|scss)\\b", "category": "Web Development", "subcategory": "CSS Preprocessor", "confidence": 0.90, "aliases": ["SCSS"]}
+{"skill": "Tailwind CSS", "pattern": "\\btailwind\\b", "category": "Web Development", "subcategory": "CSS Framework", "confidence": 0.95, "aliases": ["Tailwind"]}
+{"skill": "Bootstrap", "pattern": "\\bbootstrap\\b", "category": "Web Development", "subcategory": "CSS Framework", "confidence": 0.90, "aliases": []}
+{"skill": "Material UI", "pattern": "\\bmaterial\\s*(ui)?\\b", "category": "Web Development", "subcategory": "Component Library", "confidence": 0.85, "aliases": ["MUI"]}
+{"skill": "Webpack", "pattern": "\\bwebpack\\b", "category": "Web Development", "subcategory": "Build Tool", "confidence": 0.90, "aliases": []}
+{"skill": "Vite", "pattern": "\\bvite\\b", "category": "Web Development", "subcategory": "Build Tool", "confidence": 0.90, "aliases": []}
+{"skill": "npm", "pattern": "\\bnpm\\b", "category": "Web Development", "subcategory": "Package Manager", "confidence": 0.85, "aliases": []}
+{"skill": "Yarn", "pattern": "\\byarn\\b", "category": "Web Development", "subcategory": "Package Manager", "confidence": 0.85, "aliases": []}
+{"skill": "Jest", "pattern": "\\bjest\\b", "category": "Web Development", "subcategory": "Testing", "confidence": 0.90, "aliases": []}
+{"skill": "Cypress", "pattern": "\\bcypress\\b", "category": "Web Development", "subcategory": "E2E Testing", "confidence": 0.95, "aliases": []}
+{"skill": "Playwright", "pattern": "\\bplaywright\\b", "category": "Web Development", "subcategory": "E2E Testing", "confidence": 0.90, "aliases": []}
+{"skill": "OAuth", "pattern": "\\boauth\\b", "category": "Web Development", "subcategory": "Authentication", "confidence": 0.90, "aliases": []}
+{"skill": "JWT", "pattern": "\\bjwt\\b", "category": "Web Development", "subcategory": "Authentication", "confidence": 0.90, "aliases": []}
+{"skill": "WordPress", "pattern": "\\bwordpress\\b", "category": "Web Development", "subcategory": "CMS", "confidence": 0.85, "aliases": []}
+{"skill": "SEO", "pattern": "\\bseo\\b", "category": "Web Development", "subcategory": "Optimization", "confidence": 0.85, "aliases": []}
+{"skill": "Responsive Design", "pattern": "\\bresponsive\\s*design\\b", "category": "Web Development", "subcategory": "Design", "confidence": 0.85, "aliases": []}
